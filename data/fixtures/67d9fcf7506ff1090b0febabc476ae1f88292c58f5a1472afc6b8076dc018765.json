@@ -1,0 +1,40 @@
+{
+  "doc_type": "w9",
+  "doc_type_confidence": 0.99,
+  "extractor": "fixture: generated from the synthetic spec (replace with --record)",
+  "fields": {
+    "legal_name": {
+      "confidence": 0.98,
+      "line": "Name (as shown on your income tax return): Brightline Electric LLC",
+      "page": 1,
+      "value": "Brightline Electric LLC"
+    },
+    "signature": {
+      "confidence": 0.93,
+      "line": "Signature of U.S. person: /s/ signed electronically",
+      "page": 1,
+      "value": "/s/ signed electronically"
+    },
+    "signed_date": {
+      "confidence": 0.95,
+      "line": "Date: 01/15/2026",
+      "page": 1,
+      "value": "01/15/2026"
+    },
+    "tax_classification": {
+      "confidence": 0.95,
+      "line": "Federal tax classification: LLC (partnership)",
+      "page": 1,
+      "value": "LLC (partnership)"
+    },
+    "tin_last4": {
+      "confidence": 0.97,
+      "line": "Taxpayer Identification Number (EIN): **-***0101",
+      "page": 1,
+      "value": "0101"
+    }
+  },
+  "route": "text",
+  "sha256": "67d9fcf7506ff1090b0febabc476ae1f88292c58f5a1472afc6b8076dc018765",
+  "source": "data/docs/V-101/w9.pdf"
+}

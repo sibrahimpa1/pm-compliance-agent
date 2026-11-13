@@ -1,0 +1,40 @@
+{
+  "doc_type": "w9",
+  "doc_type_confidence": 0.99,
+  "extractor": "fixture: generated from the synthetic spec (replace with --record)",
+  "fields": {
+    "legal_name": {
+      "confidence": 0.98,
+      "line": "Name (as shown on your income tax return): Copperleaf Plumbing Co.",
+      "page": 1,
+      "value": "Copperleaf Plumbing Co."
+    },
+    "signature": {
+      "confidence": 0.93,
+      "line": "Signature of U.S. person: /s/ signed electronically",
+      "page": 1,
+      "value": "/s/ signed electronically"
+    },
+    "signed_date": {
+      "confidence": 0.95,
+      "line": "Date: 02/03/2026",
+      "page": 1,
+      "value": "02/03/2026"
+    },
+    "tax_classification": {
+      "confidence": 0.95,
+      "line": "Federal tax classification: C corporation",
+      "page": 1,
+      "value": "C corporation"
+    },
+    "tin_last4": {
+      "confidence": 0.97,
+      "line": "Taxpayer Identification Number (EIN): **-***0102",
+      "page": 1,
+      "value": "0102"
+    }
+  },
+  "route": "text",
+  "sha256": "02944c9d08b48f48547a0d7fefbe7fe26255b382e4245ea48f4970e50f25d9f5",
+  "source": "data/docs/V-102/w9.pdf"
+}

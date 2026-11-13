@@ -1,0 +1,64 @@
+{
+  "doc_type": "coi",
+  "doc_type_confidence": 0.99,
+  "extractor": "fixture: generated from the synthetic spec (replace with --record)",
+  "fields": {
+    "additional_insured": {
+      "confidence": 0.95,
+      "line": "Additional Insured: Sample Residential Management LLC",
+      "page": 1,
+      "value": "Sample Residential Management LLC"
+    },
+    "aggregate_limit": {
+      "confidence": 0.96,
+      "line": "General Aggregate: $1,000,000",
+      "page": 1,
+      "value": "$1,000,000"
+    },
+    "effective_date": {
+      "confidence": 0.97,
+      "line": "Policy Effective Date: 05/01/2026",
+      "page": 1,
+      "value": "05/01/2026"
+    },
+    "expiry_date": {
+      "confidence": 0.97,
+      "line": "Policy Expiration Date: 04/30/2027",
+      "page": 1,
+      "value": "04/30/2027"
+    },
+    "insured_name": {
+      "confidence": 0.98,
+      "line": "Insured: Greenway Grounds LLC",
+      "page": 1,
+      "value": "Greenway Grounds LLC"
+    },
+    "insurer": {
+      "confidence": 0.97,
+      "line": "Insurer A: Example Mutual Insurance Co.",
+      "page": 1,
+      "value": "Example Mutual Insurance Co."
+    },
+    "per_occurrence_limit": {
+      "confidence": 0.96,
+      "line": "Each Occurrence: $500,000",
+      "page": 1,
+      "value": "$500,000"
+    },
+    "policy_number": {
+      "confidence": 0.97,
+      "line": "Policy Number: CGL-00-1004",
+      "page": 1,
+      "value": "CGL-00-1004"
+    },
+    "policy_type": {
+      "confidence": 0.96,
+      "line": "Type of Insurance: Commercial General Liability - Occurrence",
+      "page": 1,
+      "value": "Commercial General Liability - Occurrence"
+    }
+  },
+  "route": "text",
+  "sha256": "44c512eca47bc34bf4d428a902694e0ced78d87d3360741da254c1e7427c0df0",
+  "source": "data/docs/V-104/coi.pdf"
+}

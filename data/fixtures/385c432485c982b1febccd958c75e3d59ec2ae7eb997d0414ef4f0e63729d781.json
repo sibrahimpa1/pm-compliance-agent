@@ -1,0 +1,64 @@
+{
+  "doc_type": "coi",
+  "doc_type_confidence": 0.99,
+  "extractor": "fixture: generated from the synthetic spec (replace with --record)",
+  "fields": {
+    "additional_insured": {
+      "confidence": 0.95,
+      "line": "Additional Insured: Sample Residential Management LLC",
+      "page": 1,
+      "value": "Sample Residential Management LLC"
+    },
+    "aggregate_limit": {
+      "confidence": 0.96,
+      "line": "General Aggregate: $2,000,000",
+      "page": 1,
+      "value": "$2,000,000"
+    },
+    "effective_date": {
+      "confidence": 0.97,
+      "line": "Policy Effective Date: 10/31/2025",
+      "page": 1,
+      "value": "10/31/2025"
+    },
+    "expiry_date": {
+      "confidence": 0.97,
+      "line": "Policy Expiration Date: 10/31/2026",
+      "page": 1,
+      "value": "10/31/2026"
+    },
+    "insured_name": {
+      "confidence": 0.98,
+      "line": "Insured: Northgate H.V.A.C. Services, Inc.",
+      "page": 1,
+      "value": "Northgate H.V.A.C. Services, Inc."
+    },
+    "insurer": {
+      "confidence": 0.97,
+      "line": "Insurer A: Example Mutual Insurance Co.",
+      "page": 1,
+      "value": "Example Mutual Insurance Co."
+    },
+    "per_occurrence_limit": {
+      "confidence": 0.96,
+      "line": "Each Occurrence: $1,000,000",
+      "page": 1,
+      "value": "$1,000,000"
+    },
+    "policy_number": {
+      "confidence": 0.97,
+      "line": "Policy Number: CGL-00-1003",
+      "page": 1,
+      "value": "CGL-00-1003"
+    },
+    "policy_type": {
+      "confidence": 0.96,
+      "line": "Type of Insurance: Commercial General Liability - Occurrence",
+      "page": 1,
+      "value": "Commercial General Liability - Occurrence"
+    }
+  },
+  "route": "text",
+  "sha256": "385c432485c982b1febccd958c75e3d59ec2ae7eb997d0414ef4f0e63729d781",
+  "source": "data/docs/V-103/coi.pdf"
+}

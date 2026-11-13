@@ -1,0 +1,28 @@
+{
+  "doc_type": "direct_deposit",
+  "doc_type_confidence": 0.99,
+  "extractor": "fixture: generated from the synthetic spec (replace with --record)",
+  "fields": {
+    "account_last4": {
+      "confidence": 0.97,
+      "line": "Account Number: ********9911",
+      "page": 1,
+      "value": "9911"
+    },
+    "payee_name": {
+      "confidence": 0.98,
+      "line": "Payee Name: Maple Court Partners LP",
+      "page": 1,
+      "value": "Maple Court Partners LP"
+    },
+    "signature": {
+      "confidence": 0.93,
+      "line": "Authorized Signature: /s/ signed electronically",
+      "page": 1,
+      "value": "/s/ signed electronically"
+    }
+  },
+  "route": "text",
+  "sha256": "ae2c213d3634819841aa3080d8ac99390a239afd6d22dd271fa3e3f51446e95f",
+  "source": "data/docs/O-205/direct_deposit.pdf"
+}

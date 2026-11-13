@@ -1,0 +1,46 @@
+{
+  "doc_type": "trade_license",
+  "doc_type_confidence": 0.99,
+  "extractor": "fixture: generated from the synthetic spec (replace with --record)",
+  "fields": {
+    "expiry_date": {
+      "confidence": 0.97,
+      "line": "Expires: 11/30/2027",
+      "page": 1,
+      "value": "11/30/2027"
+    },
+    "issue_date": {
+      "confidence": 0.96,
+      "line": "Issued: 11/30/2025",
+      "page": 1,
+      "value": "11/30/2025"
+    },
+    "license_number": {
+      "confidence": 0.98,
+      "line": "License Number: PL-000107",
+      "page": 1,
+      "value": "PL-000107"
+    },
+    "licensee_name": {
+      "confidence": 0.98,
+      "line": "Licensee: Bluepipe Drain & Sewer LLC",
+      "page": 1,
+      "value": "Bluepipe Drain & Sewer LLC"
+    },
+    "state": {
+      "confidence": 0.98,
+      "line": "Issuing State: TX",
+      "page": 1,
+      "value": "TX"
+    },
+    "trade": {
+      "confidence": 0.96,
+      "line": "License Type: Journeyman Plumber",
+      "page": 1,
+      "value": "Journeyman Plumber"
+    }
+  },
+  "route": "text",
+  "sha256": "06df1c20d87e4be7bc5f4232e00222e85b64e7b42dbce49aaca40720fe20fbf9",
+  "source": "data/docs/V-107/trade_license.pdf"
+}

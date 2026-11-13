@@ -1,0 +1,40 @@
+{
+  "doc_type": "w9",
+  "doc_type_confidence": 0.99,
+  "extractor": "fixture: generated from the synthetic spec (replace with --record)",
+  "fields": {
+    "legal_name": {
+      "confidence": 0.98,
+      "line": "Name (as shown on your income tax return): Greenway Grounds LLC",
+      "page": 1,
+      "value": "Greenway Grounds LLC"
+    },
+    "signature": {
+      "confidence": 0.93,
+      "line": "Signature of U.S. person: /s/ signed electronically",
+      "page": 1,
+      "value": "/s/ signed electronically"
+    },
+    "signed_date": {
+      "confidence": 0.95,
+      "line": "Date: 05/02/2026",
+      "page": 1,
+      "value": "05/02/2026"
+    },
+    "tax_classification": {
+      "confidence": 0.95,
+      "line": "Federal tax classification: LLC (single member)",
+      "page": 1,
+      "value": "LLC (single member)"
+    },
+    "tin_last4": {
+      "confidence": 0.97,
+      "line": "Taxpayer Identification Number (EIN): **-***0104",
+      "page": 1,
+      "value": "0104"
+    }
+  },
+  "route": "text",
+  "sha256": "a1ffa0f3967fc1a304cd0c3fae70f3413de879cf155cab6cb8c59f05ed8e25e6",
+  "source": "data/docs/V-104/w9.pdf"
+}

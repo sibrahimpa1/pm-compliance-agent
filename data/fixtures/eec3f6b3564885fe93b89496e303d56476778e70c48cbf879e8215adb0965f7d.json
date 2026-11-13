@@ -1,0 +1,40 @@
+{
+  "doc_type": "w9",
+  "doc_type_confidence": 0.99,
+  "extractor": "fixture: generated from the synthetic spec (replace with --record)",
+  "fields": {
+    "legal_name": {
+      "confidence": 0.98,
+      "line": "Name (as shown on your income tax return): Maple Court Partners LP",
+      "page": 1,
+      "value": "Maple Court Partners LP"
+    },
+    "signature": {
+      "confidence": 0.93,
+      "line": "Signature of U.S. person: /s/ signed electronically",
+      "page": 1,
+      "value": "/s/ signed electronically"
+    },
+    "signed_date": {
+      "confidence": 0.95,
+      "line": "Date: 07/07/2026",
+      "page": 1,
+      "value": "07/07/2026"
+    },
+    "tax_classification": {
+      "confidence": 0.95,
+      "line": "Federal tax classification: Partnership",
+      "page": 1,
+      "value": "Partnership"
+    },
+    "tin_last4": {
+      "confidence": 0.97,
+      "line": "Taxpayer Identification Number (EIN): **-***0205",
+      "page": 1,
+      "value": "0205"
+    }
+  },
+  "route": "text",
+  "sha256": "eec3f6b3564885fe93b89496e303d56476778e70c48cbf879e8215adb0965f7d",
+  "source": "data/docs/O-205/w9.pdf"
+}

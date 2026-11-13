@@ -1,0 +1,58 @@
+{
+  "doc_type": "landlord_insurance",
+  "doc_type_confidence": 0.99,
+  "extractor": "fixture: generated from the synthetic spec (replace with --record)",
+  "fields": {
+    "additional_insured": {
+      "confidence": 0.94,
+      "line": "Additional Interest: Sample Residential Management LLC",
+      "page": 1,
+      "value": "Sample Residential Management LLC"
+    },
+    "effective_date": {
+      "confidence": 0.97,
+      "line": "Effective Date: 06/01/2026",
+      "page": 1,
+      "value": "06/01/2026"
+    },
+    "expiry_date": {
+      "confidence": 0.97,
+      "line": "Expiration Date: 05/31/2027",
+      "page": 1,
+      "value": "05/31/2027"
+    },
+    "insured_name": {
+      "confidence": 0.98,
+      "line": "Named Insured: Harbor Lane Holdings LLC",
+      "page": 1,
+      "value": "Harbor Lane Holdings LLC"
+    },
+    "liability_limit": {
+      "confidence": 0.95,
+      "line": "Personal Liability Limit: $300,000",
+      "page": 1,
+      "value": "$300,000"
+    },
+    "policy_number": {
+      "confidence": 0.97,
+      "line": "Policy Number: DP3-00-2001",
+      "page": 1,
+      "value": "DP3-00-2001"
+    },
+    "policy_type": {
+      "confidence": 0.96,
+      "line": "Policy Type: Landlord Dwelling Policy (DP-3)",
+      "page": 1,
+      "value": "Landlord Dwelling Policy (DP-3)"
+    },
+    "property_address": {
+      "confidence": 0.96,
+      "line": "Insured Location: 14 and 16 Harbor Lane, Anytown, TX 00000",
+      "page": 1,
+      "value": "14 and 16 Harbor Lane, Anytown, TX 00000"
+    }
+  },
+  "route": "text",
+  "sha256": "9894fdd3636f3efc029a4df18a58e986a15fd85ff0b9a8b647cacd35e2685088",
+  "source": "data/docs/O-201/landlord_insurance.pdf"
+}

@@ -1,0 +1,28 @@
+{
+  "doc_type": "hoa_rules",
+  "doc_type_confidence": 0.99,
+  "extractor": "fixture: generated from the synthetic spec (replace with --record)",
+  "fields": {
+    "effective_date": {
+      "confidence": 0.95,
+      "line": "Rules Revision Date: January 5, 2026",
+      "page": 1,
+      "value": "January 5, 2026"
+    },
+    "hoa_name": {
+      "confidence": 0.97,
+      "line": "Association: Maple Court Owners Association",
+      "page": 1,
+      "value": "Maple Court Owners Association"
+    },
+    "property_address": {
+      "confidence": 0.95,
+      "line": "Property: 3 Maple Court, Anytown, TX 00000",
+      "page": 1,
+      "value": "3 Maple Court, Anytown, TX 00000"
+    }
+  },
+  "route": "text",
+  "sha256": "db6cb404594d1f8989c602d4993539e292cc48caec8912c1ba59093242f8d8db",
+  "source": "data/docs/O-205/hoa_rules.pdf"
+}

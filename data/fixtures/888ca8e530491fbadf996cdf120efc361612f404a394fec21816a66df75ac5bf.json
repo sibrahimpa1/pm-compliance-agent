@@ -1,0 +1,58 @@
+{
+  "doc_type": "landlord_insurance",
+  "doc_type_confidence": 0.99,
+  "extractor": "fixture: generated from the synthetic spec (replace with --record)",
+  "fields": {
+    "additional_insured": {
+      "confidence": 0.94,
+      "line": "Additional Interest: Sample Residential Management LLC",
+      "page": 1,
+      "value": "Sample Residential Management LLC"
+    },
+    "effective_date": {
+      "confidence": 0.97,
+      "line": "Effective Date: 03/01/2026",
+      "page": 1,
+      "value": "03/01/2026"
+    },
+    "expiry_date": {
+      "confidence": 0.97,
+      "line": "Expiration Date: 02/28/2027",
+      "page": 1,
+      "value": "02/28/2027"
+    },
+    "insured_name": {
+      "confidence": 0.98,
+      "line": "Named Insured: Elena Marsh",
+      "page": 1,
+      "value": "Elena Marsh"
+    },
+    "liability_limit": {
+      "confidence": 0.95,
+      "line": "Personal Liability Limit: $300,000",
+      "page": 1,
+      "value": "$300,000"
+    },
+    "policy_number": {
+      "confidence": 0.97,
+      "line": "Policy Number: DP3-00-2002",
+      "page": 1,
+      "value": "DP3-00-2002"
+    },
+    "policy_type": {
+      "confidence": 0.96,
+      "line": "Policy Type: Landlord Dwelling Policy (DP-3)",
+      "page": 1,
+      "value": "Landlord Dwelling Policy (DP-3)"
+    },
+    "property_address": {
+      "confidence": 0.96,
+      "line": "Insured Location: 220 Willow Court, Anytown, TX 00000",
+      "page": 1,
+      "value": "220 Willow Court, Anytown, TX 00000"
+    }
+  },
+  "route": "text",
+  "sha256": "888ca8e530491fbadf996cdf120efc361612f404a394fec21816a66df75ac5bf",
+  "source": "data/docs/O-202/landlord_insurance.pdf"
+}

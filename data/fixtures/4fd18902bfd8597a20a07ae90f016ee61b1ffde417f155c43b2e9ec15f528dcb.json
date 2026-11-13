@@ -1,0 +1,64 @@
+{
+  "doc_type": "coi",
+  "doc_type_confidence": 0.9,
+  "extractor": "fixture: generated from the synthetic spec (replace with --record)",
+  "fields": {
+    "additional_insured": {
+      "confidence": 0.82,
+      "line": "ADDITIONAL INSURED: SAMPLE RESIDENTIAL MANAGEMENT LLC",
+      "page": 1,
+      "value": "Sample Residential Management LLC"
+    },
+    "aggregate_limit": {
+      "confidence": 0.85,
+      "line": "GENERAL AGGREGATE: $2,000,000",
+      "page": 1,
+      "value": "$2,000,000"
+    },
+    "effective_date": {
+      "confidence": 0.83,
+      "line": "POLICY EFFECTIVE DATE: 04/01/2026",
+      "page": 1,
+      "value": "04/01/2026"
+    },
+    "expiry_date": {
+      "confidence": 0.58,
+      "line": "POLICY EXPIRATION DATE: 03/31/2027",
+      "page": 1,
+      "value": "03/31/2027"
+    },
+    "insured_name": {
+      "confidence": 0.91,
+      "line": "INSURED: FRESH START CLEANING CO.",
+      "page": 1,
+      "value": "Fresh Start Cleaning Co."
+    },
+    "insurer": {
+      "confidence": 0.88,
+      "line": "INSURER A: EXAMPLE MUTUAL INSURANCE CO.",
+      "page": 1,
+      "value": "Example Mutual Insurance Co."
+    },
+    "per_occurrence_limit": {
+      "confidence": 0.87,
+      "line": "EACH OCCURRENCE: $1,000,000",
+      "page": 1,
+      "value": "$1,000,000"
+    },
+    "policy_number": {
+      "confidence": 0.84,
+      "line": "POLICY NUMBER: CGL-00-1009",
+      "page": 1,
+      "value": "CGL-00-1009"
+    },
+    "policy_type": {
+      "confidence": 0.86,
+      "line": "TYPE OF INSURANCE: COMMERCIAL GENERAL LIABILITY - OCCURRENCE",
+      "page": 1,
+      "value": "Commercial General Liability - Occurrence"
+    }
+  },
+  "route": "vision",
+  "sha256": "4fd18902bfd8597a20a07ae90f016ee61b1ffde417f155c43b2e9ec15f528dcb",
+  "source": "data/docs/V-109/scan_0042.pdf"
+}

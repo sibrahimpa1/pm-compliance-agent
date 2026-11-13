@@ -1,0 +1,64 @@
+{
+  "doc_type": "coi",
+  "doc_type_confidence": 0.99,
+  "extractor": "fixture: generated from the synthetic spec (replace with --record)",
+  "fields": {
+    "additional_insured": {
+      "confidence": 0.95,
+      "line": "Additional Insured: Sample Residential Management LLC",
+      "page": 1,
+      "value": "Sample Residential Management LLC"
+    },
+    "aggregate_limit": {
+      "confidence": 0.96,
+      "line": "General Aggregate: $2,000,000",
+      "page": 1,
+      "value": "$2,000,000"
+    },
+    "effective_date": {
+      "confidence": 0.97,
+      "line": "Policy Effective Date: 09/30/2026",
+      "page": 1,
+      "value": "09/30/2026"
+    },
+    "expiry_date": {
+      "confidence": 0.97,
+      "line": "Policy Expiration Date: 09/30/2027",
+      "page": 1,
+      "value": "09/30/2027"
+    },
+    "insured_name": {
+      "confidence": 0.98,
+      "line": "Insured: Coolbreeze Heating & Air LLC",
+      "page": 1,
+      "value": "Coolbreeze Heating & Air LLC"
+    },
+    "insurer": {
+      "confidence": 0.97,
+      "line": "Insurer A: Example Mutual Insurance Co.",
+      "page": 1,
+      "value": "Example Mutual Insurance Co."
+    },
+    "per_occurrence_limit": {
+      "confidence": 0.96,
+      "line": "Each Occurrence: $1,000,000",
+      "page": 1,
+      "value": "$1,000,000"
+    },
+    "policy_number": {
+      "confidence": 0.97,
+      "line": "Policy Number: CGL-00-1008",
+      "page": 1,
+      "value": "CGL-00-1008"
+    },
+    "policy_type": {
+      "confidence": 0.96,
+      "line": "Type of Insurance: Commercial General Liability - Occurrence",
+      "page": 1,
+      "value": "Commercial General Liability - Occurrence"
+    }
+  },
+  "route": "text",
+  "sha256": "38e479e980bc2346216e325e81209a68683091ba9ac6a6323064a962a36a69d1",
+  "source": "data/docs/V-108/coi.pdf"
+}

@@ -1,0 +1,46 @@
+{
+  "doc_type": "trade_license",
+  "doc_type_confidence": 0.99,
+  "extractor": "fixture: generated from the synthetic spec (replace with --record)",
+  "fields": {
+    "expiry_date": {
+      "confidence": 0.97,
+      "line": "Expires: 03/31/2027",
+      "page": 1,
+      "value": "03/31/2027"
+    },
+    "issue_date": {
+      "confidence": 0.96,
+      "line": "Issued: 03/31/2025",
+      "page": 1,
+      "value": "03/31/2025"
+    },
+    "license_number": {
+      "confidence": 0.98,
+      "line": "License Number: PL-000102",
+      "page": 1,
+      "value": "PL-000102"
+    },
+    "licensee_name": {
+      "confidence": 0.98,
+      "line": "Licensee: Copperleaf Plumbing Co.",
+      "page": 1,
+      "value": "Copperleaf Plumbing Co."
+    },
+    "state": {
+      "confidence": 0.98,
+      "line": "Issuing State: TX",
+      "page": 1,
+      "value": "TX"
+    },
+    "trade": {
+      "confidence": 0.96,
+      "line": "License Type: Master Plumber",
+      "page": 1,
+      "value": "Master Plumber"
+    }
+  },
+  "route": "text",
+  "sha256": "5ed153693507ce85683c868ee0db994febd7ebc7e78d87945ca9c38095bdf9f4",
+  "source": "data/docs/V-102/trade_license.pdf"
+}

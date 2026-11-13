@@ -1,0 +1,28 @@
+{
+  "doc_type": "direct_deposit",
+  "doc_type_confidence": 0.99,
+  "extractor": "fixture: generated from the synthetic spec (replace with --record)",
+  "fields": {
+    "account_last4": {
+      "confidence": 0.97,
+      "line": "Account Number: ********4321",
+      "page": 1,
+      "value": "4321"
+    },
+    "payee_name": {
+      "confidence": 0.98,
+      "line": "Payee Name: Harbor Lane Holdings LLC",
+      "page": 1,
+      "value": "Harbor Lane Holdings LLC"
+    },
+    "signature": {
+      "confidence": 0.93,
+      "line": "Authorized Signature: /s/ signed electronically",
+      "page": 1,
+      "value": "/s/ signed electronically"
+    }
+  },
+  "route": "text",
+  "sha256": "579a95271e1cfab7e29e390807bcb1f13970b3c899cbe0def6a4daaeb5aa59b7",
+  "source": "data/docs/O-201/direct_deposit.pdf"
+}

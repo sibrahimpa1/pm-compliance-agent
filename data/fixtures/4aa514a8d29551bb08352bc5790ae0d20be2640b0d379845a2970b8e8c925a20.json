@@ -1,0 +1,58 @@
+{
+  "doc_type": "landlord_insurance",
+  "doc_type_confidence": 0.99,
+  "extractor": "fixture: generated from the synthetic spec (replace with --record)",
+  "fields": {
+    "additional_insured": {
+      "confidence": 0.94,
+      "line": "Additional Interest: Sample Residential Management LLC",
+      "page": 1,
+      "value": "Sample Residential Management LLC"
+    },
+    "effective_date": {
+      "confidence": 0.97,
+      "line": "Effective Date: 09/30/2025",
+      "page": 1,
+      "value": "09/30/2025"
+    },
+    "expiry_date": {
+      "confidence": 0.97,
+      "line": "Expiration Date: 09/30/2026",
+      "page": 1,
+      "value": "09/30/2026"
+    },
+    "insured_name": {
+      "confidence": 0.98,
+      "line": "Named Insured: Tomas Vidal",
+      "page": 1,
+      "value": "Tomas Vidal"
+    },
+    "liability_limit": {
+      "confidence": 0.95,
+      "line": "Personal Liability Limit: $300,000",
+      "page": 1,
+      "value": "$300,000"
+    },
+    "policy_number": {
+      "confidence": 0.97,
+      "line": "Policy Number: DP3-00-2004",
+      "page": 1,
+      "value": "DP3-00-2004"
+    },
+    "policy_type": {
+      "confidence": 0.96,
+      "line": "Policy Type: Landlord Dwelling Policy (DP-3)",
+      "page": 1,
+      "value": "Landlord Dwelling Policy (DP-3)"
+    },
+    "property_address": {
+      "confidence": 0.96,
+      "line": "Insured Location: 77 Quarry Street, Anytown, TX 00000",
+      "page": 1,
+      "value": "77 Quarry Street, Anytown, TX 00000"
+    }
+  },
+  "route": "text",
+  "sha256": "4aa514a8d29551bb08352bc5790ae0d20be2640b0d379845a2970b8e8c925a20",
+  "source": "data/docs/O-204/landlord_insurance.pdf"
+}

@@ -1,0 +1,28 @@
+{
+  "doc_type": "direct_deposit",
+  "doc_type_confidence": 0.99,
+  "extractor": "fixture: generated from the synthetic spec (replace with --record)",
+  "fields": {
+    "account_last4": {
+      "confidence": 0.97,
+      "line": "Account Number: ********5522",
+      "page": 1,
+      "value": "5522"
+    },
+    "payee_name": {
+      "confidence": 0.98,
+      "line": "Payee Name: Elena Marsh",
+      "page": 1,
+      "value": "Elena Marsh"
+    },
+    "signature": {
+      "confidence": 0.93,
+      "line": "Authorized Signature: /s/ signed electronically",
+      "page": 1,
+      "value": "/s/ signed electronically"
+    }
+  },
+  "route": "text",
+  "sha256": "54b0610e93dbe1e83f8993ac15b119442511dde0ea8fcac58c98744c603fac00",
+  "source": "data/docs/O-202/direct_deposit.pdf"
+}

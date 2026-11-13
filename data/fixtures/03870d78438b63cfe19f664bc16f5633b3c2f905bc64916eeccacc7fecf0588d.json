@@ -1,0 +1,58 @@
+{
+  "doc_type": "landlord_insurance",
+  "doc_type_confidence": 0.99,
+  "extractor": "fixture: generated from the synthetic spec (replace with --record)",
+  "fields": {
+    "additional_insured": {
+      "confidence": 0.94,
+      "line": "Additional Interest: Sample Residential Management LLC",
+      "page": 1,
+      "value": "Sample Residential Management LLC"
+    },
+    "effective_date": {
+      "confidence": 0.97,
+      "line": "Effective Date: 09/01/2026",
+      "page": 1,
+      "value": "09/01/2026"
+    },
+    "expiry_date": {
+      "confidence": 0.97,
+      "line": "Expiration Date: 08/31/2027",
+      "page": 1,
+      "value": "08/31/2027"
+    },
+    "insured_name": {
+      "confidence": 0.98,
+      "line": "Named Insured: Westbrook Family Trust",
+      "page": 1,
+      "value": "Westbrook Family Trust"
+    },
+    "liability_limit": {
+      "confidence": 0.95,
+      "line": "Personal Liability Limit: $300,000",
+      "page": 1,
+      "value": "$300,000"
+    },
+    "policy_number": {
+      "confidence": 0.97,
+      "line": "Policy Number: DP3-00-2003",
+      "page": 1,
+      "value": "DP3-00-2003"
+    },
+    "policy_type": {
+      "confidence": 0.96,
+      "line": "Policy Type: Landlord Dwelling Policy (DP-3)",
+      "page": 1,
+      "value": "Landlord Dwelling Policy (DP-3)"
+    },
+    "property_address": {
+      "confidence": 0.96,
+      "line": "Insured Location: 9 Westbrook Road, Anytown, TX 00000",
+      "page": 1,
+      "value": "9 Westbrook Road, Anytown, TX 00000"
+    }
+  },
+  "route": "text",
+  "sha256": "03870d78438b63cfe19f664bc16f5633b3c2f905bc64916eeccacc7fecf0588d",
+  "source": "data/docs/O-203/landlord_insurance.pdf"
+}

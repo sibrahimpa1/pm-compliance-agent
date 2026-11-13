@@ -1,0 +1,46 @@
+{
+  "doc_type": "trade_license",
+  "doc_type_confidence": 0.99,
+  "extractor": "fixture: generated from the synthetic spec (replace with --record)",
+  "fields": {
+    "expiry_date": {
+      "confidence": 0.97,
+      "line": "Expires: 01/31/2028",
+      "page": 1,
+      "value": "01/31/2028"
+    },
+    "issue_date": {
+      "confidence": 0.96,
+      "line": "Issued: 01/31/2026",
+      "page": 1,
+      "value": "01/31/2026"
+    },
+    "license_number": {
+      "confidence": 0.98,
+      "line": "License Number: EC-000106",
+      "page": 1,
+      "value": "EC-000106"
+    },
+    "licensee_name": {
+      "confidence": 0.98,
+      "line": "Licensee: Riverbend Electrical Contractors Inc.",
+      "page": 1,
+      "value": "Riverbend Electrical Contractors Inc."
+    },
+    "state": {
+      "confidence": 0.98,
+      "line": "Issuing State: TX",
+      "page": 1,
+      "value": "TX"
+    },
+    "trade": {
+      "confidence": 0.96,
+      "line": "License Type: Electrical Contractor",
+      "page": 1,
+      "value": "Electrical Contractor"
+    }
+  },
+  "route": "text",
+  "sha256": "a44a756b3a08e736b9a8071abd920c87673d86cfde4422eaac452987fe6621b2",
+  "source": "data/docs/V-106/trade_license.pdf"
+}

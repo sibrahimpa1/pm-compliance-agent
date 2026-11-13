@@ -1,0 +1,40 @@
+{
+  "doc_type": "w9",
+  "doc_type_confidence": 0.99,
+  "extractor": "fixture: generated from the synthetic spec (replace with --record)",
+  "fields": {
+    "legal_name": {
+      "confidence": 0.98,
+      "line": "Name (as shown on your income tax return): Coolbreeze Heating & Air LLC",
+      "page": 1,
+      "value": "Coolbreeze Heating & Air LLC"
+    },
+    "signature": {
+      "confidence": 0.93,
+      "line": "Signature of U.S. person: /s/ signed electronically",
+      "page": 1,
+      "value": "/s/ signed electronically"
+    },
+    "signed_date": {
+      "confidence": 0.95,
+      "line": "Date: 10/01/2026",
+      "page": 1,
+      "value": "10/01/2026"
+    },
+    "tax_classification": {
+      "confidence": 0.95,
+      "line": "Federal tax classification: LLC (partnership)",
+      "page": 1,
+      "value": "LLC (partnership)"
+    },
+    "tin_last4": {
+      "confidence": 0.97,
+      "line": "Taxpayer Identification Number (EIN): **-***0108",
+      "page": 1,
+      "value": "0108"
+    }
+  },
+  "route": "text",
+  "sha256": "d524c93f02d8b3a9d7b89c304b3c52f73215bb4aba5d5b473c3bb18214b94c44",
+  "source": "data/docs/V-108/w9.pdf"
+}

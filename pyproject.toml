@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pm-compliance-agent"
+version = "0.1.0"
+description = "Vendor credentialing and owner onboarding audit for residential property management, with human approval before anything is sent."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Senka Ibrahimpašić"}]
+requires-python = ">=3.9"
+dependencies = ["pypdf>=4.0"]
+
+[project.optional-dependencies]
+live = ["anthropic"]
+test = ["pytest>=7"]
+
+[tool.setuptools]
+packages = ["pmcompliance"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

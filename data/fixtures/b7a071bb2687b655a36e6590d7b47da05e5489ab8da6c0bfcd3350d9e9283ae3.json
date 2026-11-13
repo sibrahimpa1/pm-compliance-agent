@@ -1,0 +1,64 @@
+{
+  "doc_type": "coi",
+  "doc_type_confidence": 0.99,
+  "extractor": "fixture: generated from the synthetic spec (replace with --record)",
+  "fields": {
+    "additional_insured": {
+      "confidence": 0.95,
+      "line": "Additional Insured: None",
+      "page": 1,
+      "value": "None"
+    },
+    "aggregate_limit": {
+      "confidence": 0.96,
+      "line": "General Aggregate: $2,000,000",
+      "page": 1,
+      "value": "$2,000,000"
+    },
+    "effective_date": {
+      "confidence": 0.97,
+      "line": "Policy Effective Date: 08/15/2026",
+      "page": 1,
+      "value": "08/15/2026"
+    },
+    "expiry_date": {
+      "confidence": 0.97,
+      "line": "Policy Expiration Date: 08/15/2027",
+      "page": 1,
+      "value": "08/15/2027"
+    },
+    "insured_name": {
+      "confidence": 0.98,
+      "line": "Insured: Riverbend Electrical Contractors Inc.",
+      "page": 1,
+      "value": "Riverbend Electrical Contractors Inc."
+    },
+    "insurer": {
+      "confidence": 0.97,
+      "line": "Insurer A: Example Mutual Insurance Co.",
+      "page": 1,
+      "value": "Example Mutual Insurance Co."
+    },
+    "per_occurrence_limit": {
+      "confidence": 0.96,
+      "line": "Each Occurrence: $1,000,000",
+      "page": 1,
+      "value": "$1,000,000"
+    },
+    "policy_number": {
+      "confidence": 0.97,
+      "line": "Policy Number: CGL-00-1006",
+      "page": 1,
+      "value": "CGL-00-1006"
+    },
+    "policy_type": {
+      "confidence": 0.96,
+      "line": "Type of Insurance: Commercial General Liability - Occurrence",
+      "page": 1,
+      "value": "Commercial General Liability - Occurrence"
+    }
+  },
+  "route": "text",
+  "sha256": "b7a071bb2687b655a36e6590d7b47da05e5489ab8da6c0bfcd3350d9e9283ae3",
+  "source": "data/docs/V-106/coi.pdf"
+}

@@ -1,0 +1,64 @@
+{
+  "doc_type": "coi",
+  "doc_type_confidence": 0.99,
+  "extractor": "fixture: generated from the synthetic spec (replace with --record)",
+  "fields": {
+    "additional_insured": {
+      "confidence": 0.95,
+      "line": "Additional Insured: Sample Residential Management LLC",
+      "page": 1,
+      "value": "Sample Residential Management LLC"
+    },
+    "aggregate_limit": {
+      "confidence": 0.96,
+      "line": "General Aggregate: $2,000,000",
+      "page": 1,
+      "value": "$2,000,000"
+    },
+    "effective_date": {
+      "confidence": 0.97,
+      "line": "Policy Effective Date: 06/30/2026",
+      "page": 1,
+      "value": "06/30/2026"
+    },
+    "expiry_date": {
+      "confidence": 0.97,
+      "line": "Policy Expiration Date: 06/30/2027",
+      "page": 1,
+      "value": "06/30/2027"
+    },
+    "insured_name": {
+      "confidence": 0.98,
+      "line": "Insured: Bluepipe Drain & Sewer LLC",
+      "page": 1,
+      "value": "Bluepipe Drain & Sewer LLC"
+    },
+    "insurer": {
+      "confidence": 0.97,
+      "line": "Insurer A: Example Mutual Insurance Co.",
+      "page": 1,
+      "value": "Example Mutual Insurance Co."
+    },
+    "per_occurrence_limit": {
+      "confidence": 0.96,
+      "line": "Each Occurrence: $1,000,000",
+      "page": 1,
+      "value": "$1,000,000"
+    },
+    "policy_number": {
+      "confidence": 0.97,
+      "line": "Policy Number: CGL-00-1007",
+      "page": 1,
+      "value": "CGL-00-1007"
+    },
+    "policy_type": {
+      "confidence": 0.96,
+      "line": "Type of Insurance: Commercial General Liability - Occurrence",
+      "page": 1,
+      "value": "Commercial General Liability - Occurrence"
+    }
+  },
+  "route": "text",
+  "sha256": "0a3a975f062331339043d3d002bc939d0da02c1d311e07d326f697692ba65143",
+  "source": "data/docs/V-107/coi.pdf"
+}

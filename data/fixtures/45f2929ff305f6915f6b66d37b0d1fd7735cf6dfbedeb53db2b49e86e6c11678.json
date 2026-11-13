@@ -1,0 +1,40 @@
+{
+  "doc_type": "w9",
+  "doc_type_confidence": 0.99,
+  "extractor": "fixture: generated from the synthetic spec (replace with --record)",
+  "fields": {
+    "legal_name": {
+      "confidence": 0.98,
+      "line": "Name (as shown on your income tax return): Tomas Vidal",
+      "page": 1,
+      "value": "Tomas Vidal"
+    },
+    "signature": {
+      "confidence": 0.93,
+      "line": "Signature of U.S. person: /s/ signed electronically",
+      "page": 1,
+      "value": "/s/ signed electronically"
+    },
+    "signed_date": {
+      "confidence": 0.95,
+      "line": "Date: 02/11/2025",
+      "page": 1,
+      "value": "02/11/2025"
+    },
+    "tax_classification": {
+      "confidence": 0.95,
+      "line": "Federal tax classification: Individual / sole proprietor",
+      "page": 1,
+      "value": "Individual / sole proprietor"
+    },
+    "tin_last4": {
+      "confidence": 0.97,
+      "line": "Taxpayer Identification Number (SSN): ***-**-0204",
+      "page": 1,
+      "value": "0204"
+    }
+  },
+  "route": "text",
+  "sha256": "45f2929ff305f6915f6b66d37b0d1fd7735cf6dfbedeb53db2b49e86e6c11678",
+  "source": "data/docs/O-204/w9.pdf"
+}

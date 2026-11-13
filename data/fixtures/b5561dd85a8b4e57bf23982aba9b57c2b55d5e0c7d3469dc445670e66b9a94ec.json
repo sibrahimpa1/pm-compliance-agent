@@ -1,0 +1,34 @@
+{
+  "doc_type": "management_agreement",
+  "doc_type_confidence": 0.99,
+  "extractor": "fixture: generated from the synthetic spec (replace with --record)",
+  "fields": {
+    "effective_date": {
+      "confidence": 0.97,
+      "line": "Effective Date: 10/15/2026",
+      "page": 1,
+      "value": "10/15/2026"
+    },
+    "owner_name": {
+      "confidence": 0.98,
+      "line": "Owner: Westbrook Family Trust",
+      "page": 1,
+      "value": "Westbrook Family Trust"
+    },
+    "property_address": {
+      "confidence": 0.96,
+      "line": "Property: 9 Westbrook Road, Anytown, TX 00000",
+      "page": 1,
+      "value": "9 Westbrook Road, Anytown, TX 00000"
+    },
+    "signature": {
+      "confidence": 0.92,
+      "line": "Owner Signature: /s/ signed electronically",
+      "page": 1,
+      "value": "/s/ signed electronically"
+    }
+  },
+  "route": "text",
+  "sha256": "b5561dd85a8b4e57bf23982aba9b57c2b55d5e0c7d3469dc445670e66b9a94ec",
+  "source": "data/docs/O-203/management_agreement.pdf"
+}

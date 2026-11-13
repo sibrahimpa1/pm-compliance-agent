@@ -1,0 +1,28 @@
+{
+  "doc_type": "direct_deposit",
+  "doc_type_confidence": 0.99,
+  "extractor": "fixture: generated from the synthetic spec (replace with --record)",
+  "fields": {
+    "account_last4": {
+      "confidence": 0.97,
+      "line": "Account Number: ********7788",
+      "page": 1,
+      "value": "7788"
+    },
+    "payee_name": {
+      "confidence": 0.98,
+      "line": "Payee Name: Tomas Vidal",
+      "page": 1,
+      "value": "Tomas Vidal"
+    },
+    "signature": {
+      "confidence": 0.93,
+      "line": "Authorized Signature: /s/ signed electronically",
+      "page": 1,
+      "value": "/s/ signed electronically"
+    }
+  },
+  "route": "text",
+  "sha256": "9b6fd5ccdfda588e7ae54dc25ff7b4d8da2328f7db4468f9b2d23e864cc22149",
+  "source": "data/docs/O-204/direct_deposit.pdf"
+}

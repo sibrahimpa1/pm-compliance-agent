@@ -1,0 +1,46 @@
+{
+  "doc_type": "trade_license",
+  "doc_type_confidence": 0.99,
+  "extractor": "fixture: generated from the synthetic spec (replace with --record)",
+  "fields": {
+    "expiry_date": {
+      "confidence": 0.97,
+      "line": "Expires: 2027-06-30",
+      "page": 1,
+      "value": "2027-06-30"
+    },
+    "issue_date": {
+      "confidence": 0.96,
+      "line": "Issued: 2025-06-30",
+      "page": 1,
+      "value": "2025-06-30"
+    },
+    "license_number": {
+      "confidence": 0.98,
+      "line": "License Number: AC-000103",
+      "page": 1,
+      "value": "AC-000103"
+    },
+    "licensee_name": {
+      "confidence": 0.98,
+      "line": "Licensee: Northgate HVAC Services, Inc.",
+      "page": 1,
+      "value": "Northgate HVAC Services, Inc."
+    },
+    "state": {
+      "confidence": 0.98,
+      "line": "Issuing State: TX",
+      "page": 1,
+      "value": "TX"
+    },
+    "trade": {
+      "confidence": 0.96,
+      "line": "License Type: Air Conditioning and Refrigeration Contractor",
+      "page": 1,
+      "value": "Air Conditioning and Refrigeration Contractor"
+    }
+  },
+  "route": "text",
+  "sha256": "ec30b7ee18c16b19276087af22fcb1980e6aa78b8d58bfd5f881603a847e2cff",
+  "source": "data/docs/V-103/trade_license.pdf"
+}

@@ -1,0 +1,40 @@
+{
+  "doc_type": "w9",
+  "doc_type_confidence": 0.99,
+  "extractor": "fixture: generated from the synthetic spec (replace with --record)",
+  "fields": {
+    "legal_name": {
+      "confidence": 0.98,
+      "line": "Name (as shown on your income tax return): Riverbend Electrical Contractors Inc.",
+      "page": 1,
+      "value": "Riverbend Electrical Contractors Inc."
+    },
+    "signature": {
+      "confidence": 0.93,
+      "line": "Signature of U.S. person: /s/ signed electronically",
+      "page": 1,
+      "value": "/s/ signed electronically"
+    },
+    "signed_date": {
+      "confidence": 0.95,
+      "line": "Date: 08/20/2026",
+      "page": 1,
+      "value": "08/20/2026"
+    },
+    "tax_classification": {
+      "confidence": 0.95,
+      "line": "Federal tax classification: S corporation",
+      "page": 1,
+      "value": "S corporation"
+    },
+    "tin_last4": {
+      "confidence": 0.97,
+      "line": "Taxpayer Identification Number (EIN): **-***0106",
+      "page": 1,
+      "value": "0106"
+    }
+  },
+  "route": "text",
+  "sha256": "9dff6f9c8772a155ed008fa8d0ea0b448bad1a8ae1ded5f9ae006e8710a76ee7",
+  "source": "data/docs/V-106/w9.pdf"
+}
