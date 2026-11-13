@@ -1,0 +1,5254 @@
+{
+  "as_of": "2026-11-13",
+  "audit": [
+    {
+      "actor": "audit",
+      "detail": "as_of=2026-11-13 mode=offline",
+      "entity_id": null,
+      "event": "run_started",
+      "ts": "2026-11-13T09:00:07Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "coi: new -> compliant",
+      "entity_id": "V-101",
+      "event": "status_change",
+      "ts": "2026-11-13T09:00:21Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "w9: new -> compliant",
+      "entity_id": "V-101",
+      "event": "status_change",
+      "ts": "2026-11-13T09:00:35Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "trade_license: new -> compliant",
+      "entity_id": "V-101",
+      "event": "status_change",
+      "ts": "2026-11-13T09:00:49Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "buildium_change #1: Set trade_license_expiration to 2027-09-30",
+      "entity_id": "V-101",
+      "event": "queued",
+      "ts": "2026-11-13T09:01:03Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "coi: new -> expiring_soon",
+      "entity_id": "V-102",
+      "event": "status_change",
+      "ts": "2026-11-13T09:01:17Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "renewal_reminder #2: Certificate of Insurance renewal due 2026-12-01",
+      "entity_id": "V-102",
+      "event": "queued",
+      "ts": "2026-11-13T09:01:31Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "w9: new -> compliant",
+      "entity_id": "V-102",
+      "event": "status_change",
+      "ts": "2026-11-13T09:01:45Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "trade_license: new -> compliant",
+      "entity_id": "V-102",
+      "event": "status_change",
+      "ts": "2026-11-13T09:01:59Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "coi: new -> expired",
+      "entity_id": "V-103",
+      "event": "status_change",
+      "ts": "2026-11-13T09:02:13Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "document_request #3: Certificate of Insurance expired 2026-10-31 - dispatch on hold",
+      "entity_id": "V-103",
+      "event": "queued",
+      "ts": "2026-11-13T09:02:27Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "w9: new -> compliant",
+      "entity_id": "V-103",
+      "event": "status_change",
+      "ts": "2026-11-13T09:02:41Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "trade_license: new -> compliant",
+      "entity_id": "V-103",
+      "event": "status_change",
+      "ts": "2026-11-13T09:02:55Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "Certificate of Insurance expired",
+      "entity_id": "V-103",
+      "event": "dispatch_paused",
+      "ts": "2026-11-13T09:03:09Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "buildium_change #4: Set dispatch_hold to yes",
+      "entity_id": "V-103",
+      "event": "queued",
+      "ts": "2026-11-13T09:03:23Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "coi: new -> needs_review",
+      "entity_id": "V-104",
+      "event": "status_change",
+      "ts": "2026-11-13T09:03:37Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "review_task #5: Review Certificate of Insurance for Greenway Grounds LLC",
+      "entity_id": "V-104",
+      "event": "queued",
+      "ts": "2026-11-13T09:03:51Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "w9: new -> compliant",
+      "entity_id": "V-104",
+      "event": "status_change",
+      "ts": "2026-11-13T09:04:05Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "coi: new -> needs_review",
+      "entity_id": "V-105",
+      "event": "status_change",
+      "ts": "2026-11-13T09:04:19Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "review_task #6: Review Certificate of Insurance for Sparkle & Shine Cleaning LLC",
+      "entity_id": "V-105",
+      "event": "queued",
+      "ts": "2026-11-13T09:04:33Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "w9: new -> compliant",
+      "entity_id": "V-105",
+      "event": "status_change",
+      "ts": "2026-11-13T09:04:47Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "coi: new -> needs_review",
+      "entity_id": "V-106",
+      "event": "status_change",
+      "ts": "2026-11-13T09:05:01Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "review_task #7: Review Certificate of Insurance for Riverbend Electrical Contractors Inc.",
+      "entity_id": "V-106",
+      "event": "queued",
+      "ts": "2026-11-13T09:05:15Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "w9: new -> compliant",
+      "entity_id": "V-106",
+      "event": "status_change",
+      "ts": "2026-11-13T09:05:29Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "trade_license: new -> compliant",
+      "entity_id": "V-106",
+      "event": "status_change",
+      "ts": "2026-11-13T09:05:43Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "coi: new -> compliant",
+      "entity_id": "V-107",
+      "event": "status_change",
+      "ts": "2026-11-13T09:05:57Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "w9: new -> missing",
+      "entity_id": "V-107",
+      "event": "status_change",
+      "ts": "2026-11-13T09:06:11Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "document_request #8: W-9 needed",
+      "entity_id": "V-107",
+      "event": "queued",
+      "ts": "2026-11-13T09:06:25Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "trade_license: new -> compliant",
+      "entity_id": "V-107",
+      "event": "status_change",
+      "ts": "2026-11-13T09:06:39Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "buildium_change #9: Set insurance_expiration to 2027-06-30",
+      "entity_id": "V-107",
+      "event": "queued",
+      "ts": "2026-11-13T09:06:53Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "coi: new -> compliant",
+      "entity_id": "V-108",
+      "event": "status_change",
+      "ts": "2026-11-13T09:07:07Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "w9: new -> compliant",
+      "entity_id": "V-108",
+      "event": "status_change",
+      "ts": "2026-11-13T09:07:21Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "trade_license: new -> missing",
+      "entity_id": "V-108",
+      "event": "status_change",
+      "ts": "2026-11-13T09:07:35Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "document_request #10: Trade licence needed",
+      "entity_id": "V-108",
+      "event": "queued",
+      "ts": "2026-11-13T09:07:49Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "coi: new -> needs_review",
+      "entity_id": "V-109",
+      "event": "status_change",
+      "ts": "2026-11-13T09:08:03Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "review_task #11: Review Certificate of Insurance for Fresh Start Cleaning Co.",
+      "entity_id": "V-109",
+      "event": "queued",
+      "ts": "2026-11-13T09:08:17Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "w9: new -> compliant",
+      "entity_id": "V-109",
+      "event": "status_change",
+      "ts": "2026-11-13T09:08:31Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "w9: new -> compliant",
+      "entity_id": "O-201",
+      "event": "status_change",
+      "ts": "2026-11-13T09:08:45Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "landlord_insurance: new -> compliant",
+      "entity_id": "O-201",
+      "event": "status_change",
+      "ts": "2026-11-13T09:08:59Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "management_agreement: new -> compliant",
+      "entity_id": "O-201",
+      "event": "status_change",
+      "ts": "2026-11-13T09:09:13Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "direct_deposit: new -> compliant",
+      "entity_id": "O-201",
+      "event": "status_change",
+      "ts": "2026-11-13T09:09:27Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "w9: new -> compliant",
+      "entity_id": "O-202",
+      "event": "status_change",
+      "ts": "2026-11-13T09:09:41Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "landlord_insurance: new -> compliant",
+      "entity_id": "O-202",
+      "event": "status_change",
+      "ts": "2026-11-13T09:09:55Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "management_agreement: new -> compliant",
+      "entity_id": "O-202",
+      "event": "status_change",
+      "ts": "2026-11-13T09:10:09Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "direct_deposit: new -> compliant",
+      "entity_id": "O-202",
+      "event": "status_change",
+      "ts": "2026-11-13T09:10:23Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "hoa_rules: new -> missing",
+      "entity_id": "O-202",
+      "event": "status_change",
+      "ts": "2026-11-13T09:10:37Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "owner_followup #12: Documents still needed for your onboarding (1)",
+      "entity_id": "O-202",
+      "event": "queued",
+      "ts": "2026-11-13T09:10:51Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "w9: new -> missing",
+      "entity_id": "O-203",
+      "event": "status_change",
+      "ts": "2026-11-13T09:11:05Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "landlord_insurance: new -> compliant",
+      "entity_id": "O-203",
+      "event": "status_change",
+      "ts": "2026-11-13T09:11:19Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "management_agreement: new -> compliant",
+      "entity_id": "O-203",
+      "event": "status_change",
+      "ts": "2026-11-13T09:11:33Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "direct_deposit: new -> missing",
+      "entity_id": "O-203",
+      "event": "status_change",
+      "ts": "2026-11-13T09:11:47Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "owner_followup #13: Documents still needed for your onboarding (2)",
+      "entity_id": "O-203",
+      "event": "queued",
+      "ts": "2026-11-13T09:12:01Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "w9: new -> compliant",
+      "entity_id": "O-204",
+      "event": "status_change",
+      "ts": "2026-11-13T09:12:15Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "landlord_insurance: new -> expired",
+      "entity_id": "O-204",
+      "event": "status_change",
+      "ts": "2026-11-13T09:12:29Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "management_agreement: new -> compliant",
+      "entity_id": "O-204",
+      "event": "status_change",
+      "ts": "2026-11-13T09:12:43Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "direct_deposit: new -> compliant",
+      "entity_id": "O-204",
+      "event": "status_change",
+      "ts": "2026-11-13T09:12:57Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "owner_followup #14: Documents still needed for your onboarding (1)",
+      "entity_id": "O-204",
+      "event": "queued",
+      "ts": "2026-11-13T09:13:11Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "w9: new -> compliant",
+      "entity_id": "O-205",
+      "event": "status_change",
+      "ts": "2026-11-13T09:13:25Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "landlord_insurance: new -> expiring_soon",
+      "entity_id": "O-205",
+      "event": "status_change",
+      "ts": "2026-11-13T09:13:39Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "management_agreement: new -> needs_review",
+      "entity_id": "O-205",
+      "event": "status_change",
+      "ts": "2026-11-13T09:13:53Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "review_task #15: Review Management agreement for Maple Court Partners LP",
+      "entity_id": "O-205",
+      "event": "queued",
+      "ts": "2026-11-13T09:14:07Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "direct_deposit: new -> compliant",
+      "entity_id": "O-205",
+      "event": "status_change",
+      "ts": "2026-11-13T09:14:21Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "hoa_rules: new -> compliant",
+      "entity_id": "O-205",
+      "event": "status_change",
+      "ts": "2026-11-13T09:14:35Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "owner_followup #16: Documents still needed for your onboarding (1)",
+      "entity_id": "O-205",
+      "event": "queued",
+      "ts": "2026-11-13T09:14:49Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "9 vendors, 5 owners, 16 new queue items",
+      "entity_id": null,
+      "event": "run_finished",
+      "ts": "2026-11-13T09:14:56Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "as_of=2026-11-13 mode=offline",
+      "entity_id": null,
+      "event": "run_started",
+      "ts": "2026-11-13T09:15:03Z"
+    },
+    {
+      "actor": "audit",
+      "detail": "9 vendors, 5 owners, 0 new queue items",
+      "entity_id": null,
+      "event": "run_finished",
+      "ts": "2026-11-13T09:17:02Z"
+    },
+    {
+      "actor": "Demo Reviewer",
+      "detail": "renewal_reminder #2: Certificate of Insurance renewal due 2026-12-01",
+      "entity_id": "V-102",
+      "event": "approved",
+      "ts": "2026-11-13T09:17:16Z"
+    },
+    {
+      "actor": "sender",
+      "detail": "renewal_reminder #2 via email to office@copperleaf.example.com",
+      "entity_id": "V-102",
+      "event": "sent",
+      "ts": "2026-11-13T09:17:30Z"
+    },
+    {
+      "actor": "Demo Reviewer",
+      "detail": "owner_followup #12: Documents still needed for your onboarding (1)",
+      "entity_id": "O-202",
+      "event": "approved",
+      "ts": "2026-11-13T09:17:44Z"
+    },
+    {
+      "actor": "sender",
+      "detail": "#3 is pending; only approved items can be sent",
+      "entity_id": "V-103",
+      "event": "send_refused",
+      "ts": "2026-11-13T09:17:51Z"
+    }
+  ],
+  "mode": "offline",
+  "notes": [],
+  "owners": [
+    {
+      "docs": [
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "w9 (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Harbor Lane Holdings LLC\" vs \"Harbor Lane Holdings LLC\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "/s/ signed electronically",
+              "name": "Signed",
+              "ok": true
+            },
+            {
+              "detail": "ending 0201",
+              "name": "TIN present",
+              "ok": true
+            }
+          ],
+          "days_left": null,
+          "doc_type": "w9",
+          "expiry": null,
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.98,
+              "line": "Name (as shown on your income tax return): Harbor Lane Holdings LLC",
+              "name": "legal_name",
+              "page": 1,
+              "value": "Harbor Lane Holdings LLC",
+              "verified": true
+            },
+            {
+              "confidence": 0.93,
+              "line": "Signature of U.S. person: /s/ signed electronically",
+              "name": "signature",
+              "page": 1,
+              "value": "/s/ signed electronically",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Date: 01/10/2026",
+              "name": "signed_date",
+              "page": 1,
+              "value": "01/10/2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Federal tax classification: LLC (partnership)",
+              "name": "tax_classification",
+              "page": 1,
+              "value": "LLC (partnership)",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Taxpayer Identification Number (EIN): **-***0201",
+              "name": "tin_last4",
+              "page": 1,
+              "value": "0201",
+              "verified": true
+            }
+          ],
+          "file": "docs/O-201/w9.pdf",
+          "label": "W-9",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "landlord_insurance (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Harbor Lane Holdings LLC\" vs \"Harbor Lane Holdings LLC\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "2027-05-31 (199 days)",
+              "name": "Not expired, > 30 days left",
+              "ok": true
+            }
+          ],
+          "days_left": 199,
+          "doc_type": "landlord_insurance",
+          "expiry": "2027-05-31",
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.94,
+              "line": "Additional Interest: Sample Residential Management LLC",
+              "name": "additional_insured",
+              "page": 1,
+              "value": "Sample Residential Management LLC",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Effective Date: 06/01/2026",
+              "name": "effective_date",
+              "page": 1,
+              "value": "06/01/2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Expiration Date: 05/31/2027",
+              "name": "expiry_date",
+              "page": 1,
+              "value": "05/31/2027",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Named Insured: Harbor Lane Holdings LLC",
+              "name": "insured_name",
+              "page": 1,
+              "value": "Harbor Lane Holdings LLC",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Personal Liability Limit: $300,000",
+              "name": "liability_limit",
+              "page": 1,
+              "value": "$300,000",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Number: DP3-00-2001",
+              "name": "policy_number",
+              "page": 1,
+              "value": "DP3-00-2001",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Policy Type: Landlord Dwelling Policy (DP-3)",
+              "name": "policy_type",
+              "page": 1,
+              "value": "Landlord Dwelling Policy (DP-3)",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Insured Location: 14 and 16 Harbor Lane, Anytown, TX 00000",
+              "name": "property_address",
+              "page": 1,
+              "value": "14 and 16 Harbor Lane, Anytown, TX 00000",
+              "verified": true
+            }
+          ],
+          "file": "docs/O-201/landlord_insurance.pdf",
+          "label": "Proof of landlord insurance",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "management_agreement (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Harbor Lane Holdings LLC\" vs \"Harbor Lane Holdings LLC\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "/s/ signed electronically",
+              "name": "Signed",
+              "ok": true
+            }
+          ],
+          "days_left": null,
+          "doc_type": "management_agreement",
+          "expiry": null,
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.97,
+              "line": "Effective Date: 01/10/2026",
+              "name": "effective_date",
+              "page": 1,
+              "value": "01/10/2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Owner: Harbor Lane Holdings LLC",
+              "name": "owner_name",
+              "page": 1,
+              "value": "Harbor Lane Holdings LLC",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Property: 14 and 16 Harbor Lane, Anytown, TX 00000",
+              "name": "property_address",
+              "page": 1,
+              "value": "14 and 16 Harbor Lane, Anytown, TX 00000",
+              "verified": true
+            },
+            {
+              "confidence": 0.92,
+              "line": "Owner Signature: /s/ signed electronically",
+              "name": "signature",
+              "page": 1,
+              "value": "/s/ signed electronically",
+              "verified": true
+            }
+          ],
+          "file": "docs/O-201/management_agreement.pdf",
+          "label": "Management agreement",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "direct_deposit (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Harbor Lane Holdings LLC\" vs \"Harbor Lane Holdings LLC\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "/s/ signed electronically",
+              "name": "Signed",
+              "ok": true
+            }
+          ],
+          "days_left": null,
+          "doc_type": "direct_deposit",
+          "expiry": null,
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.97,
+              "line": "Account Number: ********4321",
+              "name": "account_last4",
+              "page": 1,
+              "value": "4321",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Payee Name: Harbor Lane Holdings LLC",
+              "name": "payee_name",
+              "page": 1,
+              "value": "Harbor Lane Holdings LLC",
+              "verified": true
+            },
+            {
+              "confidence": 0.93,
+              "line": "Authorized Signature: /s/ signed electronically",
+              "name": "signature",
+              "page": 1,
+              "value": "/s/ signed electronically",
+              "verified": true
+            }
+          ],
+          "file": "docs/O-201/direct_deposit.pdf",
+          "label": "Direct deposit form",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        }
+      ],
+      "email": "harbor@owners.example.com",
+      "id": "O-201",
+      "name": "Harbor Lane Holdings LLC",
+      "properties": [
+        {
+          "address": "14 Harbor Lane",
+          "has_hoa": false,
+          "hoa_name": "",
+          "id": "P-301"
+        },
+        {
+          "address": "16 Harbor Lane",
+          "has_hoa": false,
+          "hoa_name": "",
+          "id": "P-302"
+        }
+      ],
+      "sources": {
+        "has_hoa": "export",
+        "name": "api",
+        "properties": "api"
+      },
+      "status": "compliant"
+    },
+    {
+      "docs": [
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "w9 (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Elena Marsh\" vs \"Elena Marsh\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "/s/ signed electronically",
+              "name": "Signed",
+              "ok": true
+            },
+            {
+              "detail": "ending 0202",
+              "name": "TIN present",
+              "ok": true
+            }
+          ],
+          "days_left": null,
+          "doc_type": "w9",
+          "expiry": null,
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.98,
+              "line": "Name (as shown on your income tax return): Elena Marsh",
+              "name": "legal_name",
+              "page": 1,
+              "value": "Elena Marsh",
+              "verified": true
+            },
+            {
+              "confidence": 0.93,
+              "line": "Signature of U.S. person: /s/ signed electronically",
+              "name": "signature",
+              "page": 1,
+              "value": "/s/ signed electronically",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Date: 03/02/2026",
+              "name": "signed_date",
+              "page": 1,
+              "value": "03/02/2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Federal tax classification: Individual / sole proprietor",
+              "name": "tax_classification",
+              "page": 1,
+              "value": "Individual / sole proprietor",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Taxpayer Identification Number (SSN): ***-**-0202",
+              "name": "tin_last4",
+              "page": 1,
+              "value": "0202",
+              "verified": true
+            }
+          ],
+          "file": "docs/O-202/w9.pdf",
+          "label": "W-9",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "landlord_insurance (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Elena Marsh\" vs \"Elena Marsh\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "2027-02-28 (107 days)",
+              "name": "Not expired, > 30 days left",
+              "ok": true
+            }
+          ],
+          "days_left": 107,
+          "doc_type": "landlord_insurance",
+          "expiry": "2027-02-28",
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.94,
+              "line": "Additional Interest: Sample Residential Management LLC",
+              "name": "additional_insured",
+              "page": 1,
+              "value": "Sample Residential Management LLC",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Effective Date: 03/01/2026",
+              "name": "effective_date",
+              "page": 1,
+              "value": "03/01/2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Expiration Date: 02/28/2027",
+              "name": "expiry_date",
+              "page": 1,
+              "value": "02/28/2027",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Named Insured: Elena Marsh",
+              "name": "insured_name",
+              "page": 1,
+              "value": "Elena Marsh",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Personal Liability Limit: $300,000",
+              "name": "liability_limit",
+              "page": 1,
+              "value": "$300,000",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Number: DP3-00-2002",
+              "name": "policy_number",
+              "page": 1,
+              "value": "DP3-00-2002",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Policy Type: Landlord Dwelling Policy (DP-3)",
+              "name": "policy_type",
+              "page": 1,
+              "value": "Landlord Dwelling Policy (DP-3)",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Insured Location: 220 Willow Court, Anytown, TX 00000",
+              "name": "property_address",
+              "page": 1,
+              "value": "220 Willow Court, Anytown, TX 00000",
+              "verified": true
+            }
+          ],
+          "file": "docs/O-202/landlord_insurance.pdf",
+          "label": "Proof of landlord insurance",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "management_agreement (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Elena Marsh\" vs \"Elena Marsh\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "/s/ signed electronically",
+              "name": "Signed",
+              "ok": true
+            }
+          ],
+          "days_left": null,
+          "doc_type": "management_agreement",
+          "expiry": null,
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.97,
+              "line": "Effective Date: 03/01/2026",
+              "name": "effective_date",
+              "page": 1,
+              "value": "03/01/2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Owner: Elena Marsh",
+              "name": "owner_name",
+              "page": 1,
+              "value": "Elena Marsh",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Property: 220 Willow Court, Anytown, TX 00000",
+              "name": "property_address",
+              "page": 1,
+              "value": "220 Willow Court, Anytown, TX 00000",
+              "verified": true
+            },
+            {
+              "confidence": 0.92,
+              "line": "Owner Signature: /s/ signed electronically",
+              "name": "signature",
+              "page": 1,
+              "value": "/s/ signed electronically",
+              "verified": true
+            }
+          ],
+          "file": "docs/O-202/management_agreement.pdf",
+          "label": "Management agreement",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "direct_deposit (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Elena Marsh\" vs \"Elena Marsh\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "/s/ signed electronically",
+              "name": "Signed",
+              "ok": true
+            }
+          ],
+          "days_left": null,
+          "doc_type": "direct_deposit",
+          "expiry": null,
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.97,
+              "line": "Account Number: ********5522",
+              "name": "account_last4",
+              "page": 1,
+              "value": "5522",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Payee Name: Elena Marsh",
+              "name": "payee_name",
+              "page": 1,
+              "value": "Elena Marsh",
+              "verified": true
+            },
+            {
+              "confidence": 0.93,
+              "line": "Authorized Signature: /s/ signed electronically",
+              "name": "signature",
+              "page": 1,
+              "value": "/s/ signed electronically",
+              "verified": true
+            }
+          ],
+          "file": "docs/O-202/direct_deposit.pdf",
+          "label": "Direct deposit form",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [],
+          "days_left": null,
+          "doc_type": "hoa_rules",
+          "expiry": null,
+          "extractor": null,
+          "fields": [],
+          "file": null,
+          "label": "HOA rules",
+          "reasons": [
+            "HOA rules not on file"
+          ],
+          "route": null,
+          "status": "missing"
+        }
+      ],
+      "email": "elena@owners.example.com",
+      "id": "O-202",
+      "name": "Elena Marsh",
+      "properties": [
+        {
+          "address": "220 Willow Court",
+          "has_hoa": true,
+          "hoa_name": "Willow Court HOA",
+          "id": "P-303"
+        }
+      ],
+      "sources": {
+        "has_hoa": "export",
+        "name": "api",
+        "properties": "api"
+      },
+      "status": "missing"
+    },
+    {
+      "docs": [
+        {
+          "blocks_dispatch": false,
+          "checks": [],
+          "days_left": null,
+          "doc_type": "w9",
+          "expiry": null,
+          "extractor": null,
+          "fields": [],
+          "file": null,
+          "label": "W-9",
+          "reasons": [
+            "W-9 not on file"
+          ],
+          "route": null,
+          "status": "missing"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "landlord_insurance (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Westbrook Family Trust\" vs \"Westbrook Family Trust\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "2027-08-31 (291 days)",
+              "name": "Not expired, > 30 days left",
+              "ok": true
+            }
+          ],
+          "days_left": 291,
+          "doc_type": "landlord_insurance",
+          "expiry": "2027-08-31",
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.94,
+              "line": "Additional Interest: Sample Residential Management LLC",
+              "name": "additional_insured",
+              "page": 1,
+              "value": "Sample Residential Management LLC",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Effective Date: 09/01/2026",
+              "name": "effective_date",
+              "page": 1,
+              "value": "09/01/2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Expiration Date: 08/31/2027",
+              "name": "expiry_date",
+              "page": 1,
+              "value": "08/31/2027",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Named Insured: Westbrook Family Trust",
+              "name": "insured_name",
+              "page": 1,
+              "value": "Westbrook Family Trust",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Personal Liability Limit: $300,000",
+              "name": "liability_limit",
+              "page": 1,
+              "value": "$300,000",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Number: DP3-00-2003",
+              "name": "policy_number",
+              "page": 1,
+              "value": "DP3-00-2003",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Policy Type: Landlord Dwelling Policy (DP-3)",
+              "name": "policy_type",
+              "page": 1,
+              "value": "Landlord Dwelling Policy (DP-3)",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Insured Location: 9 Westbrook Road, Anytown, TX 00000",
+              "name": "property_address",
+              "page": 1,
+              "value": "9 Westbrook Road, Anytown, TX 00000",
+              "verified": true
+            }
+          ],
+          "file": "docs/O-203/landlord_insurance.pdf",
+          "label": "Proof of landlord insurance",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "management_agreement (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Westbrook Family Trust\" vs \"Westbrook Family Trust\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "/s/ signed electronically",
+              "name": "Signed",
+              "ok": true
+            }
+          ],
+          "days_left": null,
+          "doc_type": "management_agreement",
+          "expiry": null,
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.97,
+              "line": "Effective Date: 10/15/2026",
+              "name": "effective_date",
+              "page": 1,
+              "value": "10/15/2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Owner: Westbrook Family Trust",
+              "name": "owner_name",
+              "page": 1,
+              "value": "Westbrook Family Trust",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Property: 9 Westbrook Road, Anytown, TX 00000",
+              "name": "property_address",
+              "page": 1,
+              "value": "9 Westbrook Road, Anytown, TX 00000",
+              "verified": true
+            },
+            {
+              "confidence": 0.92,
+              "line": "Owner Signature: /s/ signed electronically",
+              "name": "signature",
+              "page": 1,
+              "value": "/s/ signed electronically",
+              "verified": true
+            }
+          ],
+          "file": "docs/O-203/management_agreement.pdf",
+          "label": "Management agreement",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [],
+          "days_left": null,
+          "doc_type": "direct_deposit",
+          "expiry": null,
+          "extractor": null,
+          "fields": [],
+          "file": null,
+          "label": "Direct deposit form",
+          "reasons": [
+            "Direct deposit form not on file"
+          ],
+          "route": null,
+          "status": "missing"
+        }
+      ],
+      "email": "westbrook@owners.example.com",
+      "id": "O-203",
+      "name": "Westbrook Family Trust",
+      "properties": [
+        {
+          "address": "9 Westbrook Road",
+          "has_hoa": false,
+          "hoa_name": "",
+          "id": "P-304"
+        }
+      ],
+      "sources": {
+        "has_hoa": "export",
+        "name": "api",
+        "properties": "api"
+      },
+      "status": "missing"
+    },
+    {
+      "docs": [
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "w9 (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Tomas Vidal\" vs \"Tomas Vidal\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "/s/ signed electronically",
+              "name": "Signed",
+              "ok": true
+            },
+            {
+              "detail": "ending 0204",
+              "name": "TIN present",
+              "ok": true
+            }
+          ],
+          "days_left": null,
+          "doc_type": "w9",
+          "expiry": null,
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.98,
+              "line": "Name (as shown on your income tax return): Tomas Vidal",
+              "name": "legal_name",
+              "page": 1,
+              "value": "Tomas Vidal",
+              "verified": true
+            },
+            {
+              "confidence": 0.93,
+              "line": "Signature of U.S. person: /s/ signed electronically",
+              "name": "signature",
+              "page": 1,
+              "value": "/s/ signed electronically",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Date: 02/11/2025",
+              "name": "signed_date",
+              "page": 1,
+              "value": "02/11/2025",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Federal tax classification: Individual / sole proprietor",
+              "name": "tax_classification",
+              "page": 1,
+              "value": "Individual / sole proprietor",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Taxpayer Identification Number (SSN): ***-**-0204",
+              "name": "tin_last4",
+              "page": 1,
+              "value": "0204",
+              "verified": true
+            }
+          ],
+          "file": "docs/O-204/w9.pdf",
+          "label": "W-9",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "landlord_insurance (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Tomas Vidal\" vs \"Tomas Vidal\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "2026-09-30 (-44 days)",
+              "name": "Not expired, > 30 days left",
+              "ok": false
+            }
+          ],
+          "days_left": -44,
+          "doc_type": "landlord_insurance",
+          "expiry": "2026-09-30",
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.94,
+              "line": "Additional Interest: Sample Residential Management LLC",
+              "name": "additional_insured",
+              "page": 1,
+              "value": "Sample Residential Management LLC",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Effective Date: 09/30/2025",
+              "name": "effective_date",
+              "page": 1,
+              "value": "09/30/2025",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Expiration Date: 09/30/2026",
+              "name": "expiry_date",
+              "page": 1,
+              "value": "09/30/2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Named Insured: Tomas Vidal",
+              "name": "insured_name",
+              "page": 1,
+              "value": "Tomas Vidal",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Personal Liability Limit: $300,000",
+              "name": "liability_limit",
+              "page": 1,
+              "value": "$300,000",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Number: DP3-00-2004",
+              "name": "policy_number",
+              "page": 1,
+              "value": "DP3-00-2004",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Policy Type: Landlord Dwelling Policy (DP-3)",
+              "name": "policy_type",
+              "page": 1,
+              "value": "Landlord Dwelling Policy (DP-3)",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Insured Location: 77 Quarry Street, Anytown, TX 00000",
+              "name": "property_address",
+              "page": 1,
+              "value": "77 Quarry Street, Anytown, TX 00000",
+              "verified": true
+            }
+          ],
+          "file": "docs/O-204/landlord_insurance.pdf",
+          "label": "Proof of landlord insurance",
+          "reasons": [
+            "expired 2026-09-30 (44 days ago)"
+          ],
+          "route": "text",
+          "status": "expired"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "management_agreement (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Tomas Vidal\" vs \"Tomas Vidal\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "/s/ signed electronically",
+              "name": "Signed",
+              "ok": true
+            }
+          ],
+          "days_left": null,
+          "doc_type": "management_agreement",
+          "expiry": null,
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.97,
+              "line": "Effective Date: 02/11/2025",
+              "name": "effective_date",
+              "page": 1,
+              "value": "02/11/2025",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Owner: Tomas Vidal",
+              "name": "owner_name",
+              "page": 1,
+              "value": "Tomas Vidal",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Property: 77 Quarry Street, Anytown, TX 00000",
+              "name": "property_address",
+              "page": 1,
+              "value": "77 Quarry Street, Anytown, TX 00000",
+              "verified": true
+            },
+            {
+              "confidence": 0.92,
+              "line": "Owner Signature: /s/ signed electronically",
+              "name": "signature",
+              "page": 1,
+              "value": "/s/ signed electronically",
+              "verified": true
+            }
+          ],
+          "file": "docs/O-204/management_agreement.pdf",
+          "label": "Management agreement",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "direct_deposit (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Tomas Vidal\" vs \"Tomas Vidal\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "/s/ signed electronically",
+              "name": "Signed",
+              "ok": true
+            }
+          ],
+          "days_left": null,
+          "doc_type": "direct_deposit",
+          "expiry": null,
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.97,
+              "line": "Account Number: ********7788",
+              "name": "account_last4",
+              "page": 1,
+              "value": "7788",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Payee Name: Tomas Vidal",
+              "name": "payee_name",
+              "page": 1,
+              "value": "Tomas Vidal",
+              "verified": true
+            },
+            {
+              "confidence": 0.93,
+              "line": "Authorized Signature: /s/ signed electronically",
+              "name": "signature",
+              "page": 1,
+              "value": "/s/ signed electronically",
+              "verified": true
+            }
+          ],
+          "file": "docs/O-204/direct_deposit.pdf",
+          "label": "Direct deposit form",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        }
+      ],
+      "email": "tomas@owners.example.com",
+      "id": "O-204",
+      "name": "Tomas Vidal",
+      "properties": [
+        {
+          "address": "77 Quarry Street",
+          "has_hoa": false,
+          "hoa_name": "",
+          "id": "P-305"
+        }
+      ],
+      "sources": {
+        "has_hoa": "export",
+        "name": "api",
+        "properties": "api"
+      },
+      "status": "expired"
+    },
+    {
+      "docs": [
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "w9 (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Maple Court Partners LP\" vs \"Maple Court Partners LP\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "/s/ signed electronically",
+              "name": "Signed",
+              "ok": true
+            },
+            {
+              "detail": "ending 0205",
+              "name": "TIN present",
+              "ok": true
+            }
+          ],
+          "days_left": null,
+          "doc_type": "w9",
+          "expiry": null,
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.98,
+              "line": "Name (as shown on your income tax return): Maple Court Partners LP",
+              "name": "legal_name",
+              "page": 1,
+              "value": "Maple Court Partners LP",
+              "verified": true
+            },
+            {
+              "confidence": 0.93,
+              "line": "Signature of U.S. person: /s/ signed electronically",
+              "name": "signature",
+              "page": 1,
+              "value": "/s/ signed electronically",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Date: 07/07/2026",
+              "name": "signed_date",
+              "page": 1,
+              "value": "07/07/2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Federal tax classification: Partnership",
+              "name": "tax_classification",
+              "page": 1,
+              "value": "Partnership",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Taxpayer Identification Number (EIN): **-***0205",
+              "name": "tin_last4",
+              "page": 1,
+              "value": "0205",
+              "verified": true
+            }
+          ],
+          "file": "docs/O-205/w9.pdf",
+          "label": "W-9",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "landlord_insurance (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Maple Court Partners LP\" vs \"Maple Court Partners LP\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "2026-12-10 (27 days)",
+              "name": "Not expired, > 30 days left",
+              "ok": false
+            }
+          ],
+          "days_left": 27,
+          "doc_type": "landlord_insurance",
+          "expiry": "2026-12-10",
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.94,
+              "line": "Additional Interest: Sample Residential Management LLC",
+              "name": "additional_insured",
+              "page": 1,
+              "value": "Sample Residential Management LLC",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Effective Date: 12/10/2025",
+              "name": "effective_date",
+              "page": 1,
+              "value": "12/10/2025",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Expiration Date: 12/10/2026",
+              "name": "expiry_date",
+              "page": 1,
+              "value": "12/10/2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Named Insured: Maple Court Partners LP",
+              "name": "insured_name",
+              "page": 1,
+              "value": "Maple Court Partners LP",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Personal Liability Limit: $300,000",
+              "name": "liability_limit",
+              "page": 1,
+              "value": "$300,000",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Number: DP3-00-2005",
+              "name": "policy_number",
+              "page": 1,
+              "value": "DP3-00-2005",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Policy Type: Landlord Dwelling Policy (DP-3)",
+              "name": "policy_type",
+              "page": 1,
+              "value": "Landlord Dwelling Policy (DP-3)",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Insured Location: 3 Maple Court, Anytown, TX 00000",
+              "name": "property_address",
+              "page": 1,
+              "value": "3 Maple Court, Anytown, TX 00000",
+              "verified": true
+            }
+          ],
+          "file": "docs/O-205/landlord_insurance.pdf",
+          "label": "Proof of landlord insurance",
+          "reasons": [
+            "expires in 27 days"
+          ],
+          "route": "text",
+          "status": "expiring_soon"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "management_agreement (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "missing: signature",
+              "name": "Key fields present",
+              "ok": false
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Maple Court Partners LP\" vs \"Maple Court Partners LP\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "signature line blank",
+              "name": "Signed",
+              "ok": false
+            }
+          ],
+          "days_left": null,
+          "doc_type": "management_agreement",
+          "expiry": null,
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.97,
+              "line": "Effective Date: 07/07/2026",
+              "name": "effective_date",
+              "page": 1,
+              "value": "07/07/2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Owner: Maple Court Partners LP",
+              "name": "owner_name",
+              "page": 1,
+              "value": "Maple Court Partners LP",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Property: 3 Maple Court, Anytown, TX 00000",
+              "name": "property_address",
+              "page": 1,
+              "value": "3 Maple Court, Anytown, TX 00000",
+              "verified": true
+            },
+            {
+              "confidence": 0.92,
+              "line": "Owner Signature: ",
+              "name": "signature",
+              "page": 1,
+              "value": "",
+              "verified": true
+            }
+          ],
+          "file": "docs/O-205/management_agreement.pdf",
+          "label": "Management agreement",
+          "reasons": [
+            "not signed"
+          ],
+          "route": "text",
+          "status": "needs_review"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "direct_deposit (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Maple Court Partners LP\" vs \"Maple Court Partners LP\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "/s/ signed electronically",
+              "name": "Signed",
+              "ok": true
+            }
+          ],
+          "days_left": null,
+          "doc_type": "direct_deposit",
+          "expiry": null,
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.97,
+              "line": "Account Number: ********9911",
+              "name": "account_last4",
+              "page": 1,
+              "value": "9911",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Payee Name: Maple Court Partners LP",
+              "name": "payee_name",
+              "page": 1,
+              "value": "Maple Court Partners LP",
+              "verified": true
+            },
+            {
+              "confidence": 0.93,
+              "line": "Authorized Signature: /s/ signed electronically",
+              "name": "signature",
+              "page": 1,
+              "value": "/s/ signed electronically",
+              "verified": true
+            }
+          ],
+          "file": "docs/O-205/direct_deposit.pdf",
+          "label": "Direct deposit form",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "hoa_rules (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            }
+          ],
+          "days_left": null,
+          "doc_type": "hoa_rules",
+          "expiry": null,
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.95,
+              "line": "Rules Revision Date: January 5, 2026",
+              "name": "effective_date",
+              "page": 1,
+              "value": "January 5, 2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Association: Maple Court Owners Association",
+              "name": "hoa_name",
+              "page": 1,
+              "value": "Maple Court Owners Association",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Property: 3 Maple Court, Anytown, TX 00000",
+              "name": "property_address",
+              "page": 1,
+              "value": "3 Maple Court, Anytown, TX 00000",
+              "verified": true
+            }
+          ],
+          "file": "docs/O-205/hoa_rules.pdf",
+          "label": "HOA rules",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        }
+      ],
+      "email": "maple@owners.example.com",
+      "id": "O-205",
+      "name": "Maple Court Partners LP",
+      "properties": [
+        {
+          "address": "3 Maple Court",
+          "has_hoa": true,
+          "hoa_name": "Maple Court Owners Association",
+          "id": "P-306"
+        }
+      ],
+      "sources": {
+        "has_hoa": "export",
+        "name": "api",
+        "properties": "api"
+      },
+      "status": "needs_review"
+    }
+  ],
+  "queue": [
+    {
+      "body": "Proposed change as a browser step (no API field); operator applies it, then the value is read back.\nCurrent: 2026-09-30\nNew: 2027-09-30\nWhy: Buildium date differs from the licence on file\nVerify: read back vendor.trade_license_expiration after the change; mark done only if it equals '2027-09-30'",
+      "channel": "browser_step",
+      "created_at": "2026-11-13T09:00:56Z",
+      "decided_by": null,
+      "doc_type": null,
+      "entity_id": "V-101",
+      "entity_name": "Brightline Electric LLC",
+      "id": 1,
+      "idem_key": "V-101|vendor.trade_license_expiration|2027-09-30",
+      "kind": "buildium_change",
+      "payload": {
+        "current": "2026-09-30",
+        "entity_id": "V-101",
+        "entity_name": "Brightline Electric LLC",
+        "field": "vendor.trade_license_expiration",
+        "new": "2027-09-30",
+        "playwright_step": "set_vendor_license_expiration",
+        "reason": "Buildium date differs from the licence on file",
+        "tier": "browser",
+        "verify": "read back vendor.trade_license_expiration after the change; mark done only if it equals '2027-09-30'"
+      },
+      "recipient": "Buildium",
+      "status": "pending",
+      "subject": "Set trade_license_expiration to 2027-09-30"
+    },
+    {
+      "body": "Hello Copperleaf Plumbing Co. team,\n\nThe Certificate of Insurance we have on file expires on December 01, 2026 (18 days). Please send the renewed document before that date so work orders can keep coming to you without interruption.\n\nThank you,\nVendor compliance",
+      "channel": "email",
+      "created_at": "2026-11-13T09:01:24Z",
+      "decided_by": "Demo Reviewer",
+      "doc_type": "coi",
+      "entity_id": "V-102",
+      "entity_name": "Copperleaf Plumbing Co.",
+      "id": 2,
+      "idem_key": "V-102|coi|expiring_soon:2026-12-01",
+      "kind": "renewal_reminder",
+      "payload": {},
+      "recipient": "office@copperleaf.example.com",
+      "status": "sent",
+      "subject": "Certificate of Insurance renewal due 2026-12-01"
+    },
+    {
+      "body": "Hello Northgate HVAC Services, Inc. team,\n\nThe Certificate of Insurance we have on file expired on October 31, 2026. New work orders are on hold until we receive it. Please send a current copy.\n\nThank you,\nVendor compliance",
+      "channel": "email",
+      "created_at": "2026-11-13T09:02:20Z",
+      "decided_by": null,
+      "doc_type": "coi",
+      "entity_id": "V-103",
+      "entity_name": "Northgate HVAC Services, Inc.",
+      "id": 3,
+      "idem_key": "V-103|coi|expired:2026-10-31",
+      "kind": "document_request",
+      "payload": {},
+      "recipient": "office@northgate.example.com",
+      "status": "pending",
+      "subject": "Certificate of Insurance expired 2026-10-31 - dispatch on hold"
+    },
+    {
+      "body": "Proposed change as a browser step (no API field); operator applies it, then the value is read back.\nCurrent: no\nNew: yes\nWhy: Certificate of Insurance expired\nVerify: read back vendor.dispatch_hold after the change; mark done only if it equals 'yes'",
+      "channel": "browser_step",
+      "created_at": "2026-11-13T09:03:16Z",
+      "decided_by": null,
+      "doc_type": null,
+      "entity_id": "V-103",
+      "entity_name": "Northgate HVAC Services, Inc.",
+      "id": 4,
+      "idem_key": "V-103|vendor.dispatch_hold|yes",
+      "kind": "buildium_change",
+      "payload": {
+        "current": "no",
+        "entity_id": "V-103",
+        "entity_name": "Northgate HVAC Services, Inc.",
+        "field": "vendor.dispatch_hold",
+        "new": "yes",
+        "playwright_step": "set_vendor_do_not_dispatch",
+        "reason": "Certificate of Insurance expired",
+        "tier": "browser",
+        "verify": "read back vendor.dispatch_hold after the change; mark done only if it equals 'yes'"
+      },
+      "recipient": "Buildium",
+      "status": "pending",
+      "subject": "Set dispatch_hold to yes"
+    },
+    {
+      "body": "Check the Certificate of Insurance against the original file and decide: accept, request a corrected copy, or pause dispatch.\nWhy flagged: GL each occurrence $500,000 is below the $1,000,000 minimum",
+      "channel": "internal",
+      "created_at": "2026-11-13T09:03:44Z",
+      "decided_by": null,
+      "doc_type": "coi",
+      "entity_id": "V-104",
+      "entity_name": "Greenway Grounds LLC",
+      "id": 5,
+      "idem_key": "V-104|coi|needs_review|44c512eca47b",
+      "kind": "review_task",
+      "payload": {},
+      "recipient": "compliance team",
+      "status": "pending",
+      "subject": "Review Certificate of Insurance for Greenway Grounds LLC"
+    },
+    {
+      "body": "Check the Certificate of Insurance against the original file and decide: accept, request a corrected copy, or pause dispatch.\nWhy flagged: insured name \"Sparkle Shine Janitorial Services Inc.\" does not match \"Sparkle & Shine Cleaning LLC\" (0.62)",
+      "channel": "internal",
+      "created_at": "2026-11-13T09:04:26Z",
+      "decided_by": null,
+      "doc_type": "coi",
+      "entity_id": "V-105",
+      "entity_name": "Sparkle & Shine Cleaning LLC",
+      "id": 6,
+      "idem_key": "V-105|coi|needs_review|cf60cbdab9a7",
+      "kind": "review_task",
+      "payload": {},
+      "recipient": "compliance team",
+      "status": "pending",
+      "subject": "Review Certificate of Insurance for Sparkle & Shine Cleaning LLC"
+    },
+    {
+      "body": "Check the Certificate of Insurance against the original file and decide: accept, request a corrected copy, or pause dispatch.\nWhy flagged: Sample Residential Management LLC not named as additional insured",
+      "channel": "internal",
+      "created_at": "2026-11-13T09:05:08Z",
+      "decided_by": null,
+      "doc_type": "coi",
+      "entity_id": "V-106",
+      "entity_name": "Riverbend Electrical Contractors Inc.",
+      "id": 7,
+      "idem_key": "V-106|coi|needs_review|b7a071bb2687",
+      "kind": "review_task",
+      "payload": {},
+      "recipient": "compliance team",
+      "status": "pending",
+      "subject": "Review Certificate of Insurance for Riverbend Electrical Contractors Inc."
+    },
+    {
+      "body": "Hello Bluepipe Drain & Sewer LLC team,\n\nWe do not have a W-9 on file for you. Please reply with a copy.\n\nThank you,\nVendor compliance",
+      "channel": "email",
+      "created_at": "2026-11-13T09:06:18Z",
+      "decided_by": null,
+      "doc_type": "w9",
+      "entity_id": "V-107",
+      "entity_name": "Bluepipe Drain & Sewer LLC",
+      "id": 8,
+      "idem_key": "V-107|w9|missing:none",
+      "kind": "document_request",
+      "payload": {},
+      "recipient": "office@bluepipe.example.com",
+      "status": "pending",
+      "subject": "W-9 needed"
+    },
+    {
+      "body": "Proposed change through the API.\nCurrent: 2026-06-30\nNew: 2027-06-30\nWhy: Buildium date differs from the certificate on file\nVerify: read back vendor.insurance_expiration after the change; mark done only if it equals '2027-06-30'",
+      "channel": "buildium_api",
+      "created_at": "2026-11-13T09:06:46Z",
+      "decided_by": null,
+      "doc_type": null,
+      "entity_id": "V-107",
+      "entity_name": "Bluepipe Drain & Sewer LLC",
+      "id": 9,
+      "idem_key": "V-107|vendor.insurance_expiration|2027-06-30",
+      "kind": "buildium_change",
+      "payload": {
+        "current": "2026-06-30",
+        "entity_id": "V-107",
+        "entity_name": "Bluepipe Drain & Sewer LLC",
+        "field": "vendor.insurance_expiration",
+        "new": "2027-06-30",
+        "playwright_step": null,
+        "reason": "Buildium date differs from the certificate on file",
+        "tier": "api",
+        "verify": "read back vendor.insurance_expiration after the change; mark done only if it equals '2027-06-30'"
+      },
+      "recipient": "Buildium",
+      "status": "pending",
+      "subject": "Set insurance_expiration to 2027-06-30"
+    },
+    {
+      "body": "Hello Coolbreeze Heating & Air LLC team,\n\nWe do not have a Trade licence on file for you. Please reply with a copy.\n\nThank you,\nVendor compliance",
+      "channel": "email",
+      "created_at": "2026-11-13T09:07:42Z",
+      "decided_by": null,
+      "doc_type": "trade_license",
+      "entity_id": "V-108",
+      "entity_name": "Coolbreeze Heating & Air LLC",
+      "id": 10,
+      "idem_key": "V-108|trade_license|missing:none",
+      "kind": "document_request",
+      "payload": {},
+      "recipient": "office@coolbreeze.example.com",
+      "status": "pending",
+      "subject": "Trade licence needed"
+    },
+    {
+      "body": "Check the Certificate of Insurance against the original file and decide: accept, request a corrected copy, or pause dispatch.\nWhy flagged: low confidence 0.58 on expiry date (read from a scan)",
+      "channel": "internal",
+      "created_at": "2026-11-13T09:08:10Z",
+      "decided_by": null,
+      "doc_type": "coi",
+      "entity_id": "V-109",
+      "entity_name": "Fresh Start Cleaning Co.",
+      "id": 11,
+      "idem_key": "V-109|coi|needs_review|4fd18902bfd8",
+      "kind": "review_task",
+      "payload": {},
+      "recipient": "compliance team",
+      "status": "pending",
+      "subject": "Review Certificate of Insurance for Fresh Start Cleaning Co."
+    },
+    {
+      "body": "Hello Elena Marsh,\n\nTo finish setting up management of 220 Willow Court we still need:\n  - HOA rules (not on file)\n\nYou can reply to this email with the files attached.\n\nThank you,\nOwner onboarding",
+      "channel": "email",
+      "created_at": "2026-11-13T09:10:44Z",
+      "decided_by": "Demo Reviewer",
+      "doc_type": null,
+      "entity_id": "O-202",
+      "entity_name": "Elena Marsh",
+      "id": 12,
+      "idem_key": "O-202|owner_followup|hoa_rules:missing|from-2026-11-08",
+      "kind": "owner_followup",
+      "payload": {},
+      "recipient": "elena@owners.example.com",
+      "status": "approved",
+      "subject": "Documents still needed for your onboarding (1)"
+    },
+    {
+      "body": "Hello Westbrook Family Trust,\n\nTo finish setting up management of 9 Westbrook Road we still need:\n  - W-9 (not on file)\n  - Direct deposit form (not on file)\n\nYou can reply to this email with the files attached.\n\nThank you,\nOwner onboarding",
+      "channel": "email",
+      "created_at": "2026-11-13T09:11:54Z",
+      "decided_by": null,
+      "doc_type": null,
+      "entity_id": "O-203",
+      "entity_name": "Westbrook Family Trust",
+      "id": 13,
+      "idem_key": "O-203|owner_followup|direct_deposit:missing,w9:missing|from-2026-11-08",
+      "kind": "owner_followup",
+      "payload": {},
+      "recipient": "westbrook@owners.example.com",
+      "status": "pending",
+      "subject": "Documents still needed for your onboarding (2)"
+    },
+    {
+      "body": "Hello Tomas Vidal,\n\nTo finish setting up management of 77 Quarry Street we still need:\n  - Proof of landlord insurance (expired 09/30/2026; please send the current policy)\n\nYou can reply to this email with the files attached.\n\nThank you,\nOwner onboarding",
+      "channel": "email",
+      "created_at": "2026-11-13T09:13:04Z",
+      "decided_by": null,
+      "doc_type": null,
+      "entity_id": "O-204",
+      "entity_name": "Tomas Vidal",
+      "id": 14,
+      "idem_key": "O-204|owner_followup|landlord_insurance:expired|from-2026-11-08",
+      "kind": "owner_followup",
+      "payload": {},
+      "recipient": "tomas@owners.example.com",
+      "status": "pending",
+      "subject": "Documents still needed for your onboarding (1)"
+    },
+    {
+      "body": "Legal/financial document: a person decides.\nWhy flagged: not signed",
+      "channel": "internal",
+      "created_at": "2026-11-13T09:14:00Z",
+      "decided_by": null,
+      "doc_type": "management_agreement",
+      "entity_id": "O-205",
+      "entity_name": "Maple Court Partners LP",
+      "id": 15,
+      "idem_key": "O-205|management_agreement|needs_review|4185c0b339c1",
+      "kind": "review_task",
+      "payload": {},
+      "recipient": "onboarding team",
+      "status": "pending",
+      "subject": "Review Management agreement for Maple Court Partners LP"
+    },
+    {
+      "body": "Hello Maple Court Partners LP,\n\nTo finish setting up management of 3 Maple Court we still need:\n  - Proof of landlord insurance (renews 12/10/2026; please send the renewal when issued)\n\nYou can reply to this email with the files attached.\n\nThank you,\nOwner onboarding",
+      "channel": "email",
+      "created_at": "2026-11-13T09:14:42Z",
+      "decided_by": null,
+      "doc_type": null,
+      "entity_id": "O-205",
+      "entity_name": "Maple Court Partners LP",
+      "id": 16,
+      "idem_key": "O-205|owner_followup|landlord_insurance:expiring_soon|from-2026-11-08",
+      "kind": "owner_followup",
+      "payload": {},
+      "recipient": "maple@owners.example.com",
+      "status": "pending",
+      "subject": "Documents still needed for your onboarding (1)"
+    }
+  ],
+  "skipped": [
+    "V-110 Old Oak Tree Service LLC (inactive in Buildium)"
+  ],
+  "vendors": [
+    {
+      "dispatch_paused": false,
+      "docs": [
+        {
+          "blocks_dispatch": true,
+          "checks": [
+            {
+              "detail": "coi (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Brightline Electric LLC\" vs \"Brightline Electric LLC\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "$1,000,000 vs $1,000,000 required",
+              "name": "GL each occurrence >= minimum",
+              "ok": true
+            },
+            {
+              "detail": "Sample Residential Management LLC",
+              "name": "Management company is additional insured",
+              "ok": true
+            },
+            {
+              "detail": "2027-07-01 (230 days)",
+              "name": "Not expired, > 30 days left",
+              "ok": true
+            }
+          ],
+          "days_left": 230,
+          "doc_type": "coi",
+          "expiry": "2027-07-01",
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.95,
+              "line": "Additional Insured: Sample Residential Management LLC",
+              "name": "additional_insured",
+              "page": 1,
+              "value": "Sample Residential Management LLC",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "General Aggregate: $2,000,000",
+              "name": "aggregate_limit",
+              "page": 1,
+              "value": "$2,000,000",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Effective Date: 07/01/2026",
+              "name": "effective_date",
+              "page": 1,
+              "value": "07/01/2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Expiration Date: 07/01/2027",
+              "name": "expiry_date",
+              "page": 1,
+              "value": "07/01/2027",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Insured: Brightline Electric LLC",
+              "name": "insured_name",
+              "page": 1,
+              "value": "Brightline Electric LLC",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Insurer A: Example Mutual Insurance Co.",
+              "name": "insurer",
+              "page": 1,
+              "value": "Example Mutual Insurance Co.",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Each Occurrence: $1,000,000",
+              "name": "per_occurrence_limit",
+              "page": 1,
+              "value": "$1,000,000",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Number: CGL-00-1001",
+              "name": "policy_number",
+              "page": 1,
+              "value": "CGL-00-1001",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Type of Insurance: Commercial General Liability - Occurrence",
+              "name": "policy_type",
+              "page": 1,
+              "value": "Commercial General Liability - Occurrence",
+              "verified": true
+            }
+          ],
+          "file": "docs/V-101/coi.pdf",
+          "label": "Certificate of Insurance",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "w9 (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Brightline Electric LLC\" vs \"Brightline Electric LLC\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "/s/ signed electronically",
+              "name": "Signed",
+              "ok": true
+            },
+            {
+              "detail": "ending 0101",
+              "name": "TIN present",
+              "ok": true
+            }
+          ],
+          "days_left": null,
+          "doc_type": "w9",
+          "expiry": null,
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.98,
+              "line": "Name (as shown on your income tax return): Brightline Electric LLC",
+              "name": "legal_name",
+              "page": 1,
+              "value": "Brightline Electric LLC",
+              "verified": true
+            },
+            {
+              "confidence": 0.93,
+              "line": "Signature of U.S. person: /s/ signed electronically",
+              "name": "signature",
+              "page": 1,
+              "value": "/s/ signed electronically",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Date: 01/15/2026",
+              "name": "signed_date",
+              "page": 1,
+              "value": "01/15/2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Federal tax classification: LLC (partnership)",
+              "name": "tax_classification",
+              "page": 1,
+              "value": "LLC (partnership)",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Taxpayer Identification Number (EIN): **-***0101",
+              "name": "tin_last4",
+              "page": 1,
+              "value": "0101",
+              "verified": true
+            }
+          ],
+          "file": "docs/V-101/w9.pdf",
+          "label": "W-9",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "trade_license (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Brightline Electric LLC\" vs \"Brightline Electric LLC\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "2027-09-30 (321 days)",
+              "name": "Not expired, > 30 days left",
+              "ok": true
+            }
+          ],
+          "days_left": 321,
+          "doc_type": "trade_license",
+          "expiry": "2027-09-30",
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.97,
+              "line": "Expires: September 30, 2027",
+              "name": "expiry_date",
+              "page": 1,
+              "value": "September 30, 2027",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Issued: 09/30/2025",
+              "name": "issue_date",
+              "page": 1,
+              "value": "09/30/2025",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "License Number: EC-000101",
+              "name": "license_number",
+              "page": 1,
+              "value": "EC-000101",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Licensee: Brightline Electric LLC",
+              "name": "licensee_name",
+              "page": 1,
+              "value": "Brightline Electric LLC",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Issuing State: TX",
+              "name": "state",
+              "page": 1,
+              "value": "TX",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "License Type: Electrical Contractor",
+              "name": "trade",
+              "page": 1,
+              "value": "Electrical Contractor",
+              "verified": true
+            }
+          ],
+          "file": "docs/V-101/trade_license.pdf",
+          "label": "Trade licence",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        }
+      ],
+      "email": "office@brightline.example.com",
+      "id": "V-101",
+      "name": "Brightline Electric LLC",
+      "record": {
+        "dispatch_hold_in_buildium": false,
+        "insurance_expiration": "2027-07-01",
+        "license_expiration": "2026-09-30",
+        "license_number": "EC-000101",
+        "license_state": "TX"
+      },
+      "sources": {
+        "active": "api",
+        "dispatch_hold": "export",
+        "email": "api",
+        "insurance_expiration": "api",
+        "license_expiration": "export",
+        "license_number": "export",
+        "license_state": "export",
+        "name": "api",
+        "trade": "api"
+      },
+      "status": "compliant",
+      "trade": "electrical"
+    },
+    {
+      "dispatch_paused": false,
+      "docs": [
+        {
+          "blocks_dispatch": true,
+          "checks": [
+            {
+              "detail": "coi (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Copperleaf Plumbing Company\" vs \"Copperleaf Plumbing Co.\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "$1,000,000 vs $1,000,000 required",
+              "name": "GL each occurrence >= minimum",
+              "ok": true
+            },
+            {
+              "detail": "Sample Residential Management LLC",
+              "name": "Management company is additional insured",
+              "ok": true
+            },
+            {
+              "detail": "2026-12-01 (18 days)",
+              "name": "Not expired, > 30 days left",
+              "ok": false
+            }
+          ],
+          "days_left": 18,
+          "doc_type": "coi",
+          "expiry": "2026-12-01",
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.95,
+              "line": "Additional Insured: Sample Residential Management LLC",
+              "name": "additional_insured",
+              "page": 1,
+              "value": "Sample Residential Management LLC",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "General Aggregate: $2,000,000",
+              "name": "aggregate_limit",
+              "page": 1,
+              "value": "$2,000,000",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Effective Date: 12/01/2025",
+              "name": "effective_date",
+              "page": 1,
+              "value": "12/01/2025",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Expiration Date: 12/01/2026",
+              "name": "expiry_date",
+              "page": 1,
+              "value": "12/01/2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Insured: Copperleaf Plumbing Company",
+              "name": "insured_name",
+              "page": 1,
+              "value": "Copperleaf Plumbing Company",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Insurer A: Example Mutual Insurance Co.",
+              "name": "insurer",
+              "page": 1,
+              "value": "Example Mutual Insurance Co.",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Each Occurrence: $1,000,000",
+              "name": "per_occurrence_limit",
+              "page": 1,
+              "value": "$1,000,000",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Number: CGL-00-1002",
+              "name": "policy_number",
+              "page": 1,
+              "value": "CGL-00-1002",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Type of Insurance: Commercial General Liability - Occurrence",
+              "name": "policy_type",
+              "page": 1,
+              "value": "Commercial General Liability - Occurrence",
+              "verified": true
+            }
+          ],
+          "file": "docs/V-102/coi.pdf",
+          "label": "Certificate of Insurance",
+          "reasons": [
+            "expires in 18 days"
+          ],
+          "route": "text",
+          "status": "expiring_soon"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "w9 (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Copperleaf Plumbing Co.\" vs \"Copperleaf Plumbing Co.\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "/s/ signed electronically",
+              "name": "Signed",
+              "ok": true
+            },
+            {
+              "detail": "ending 0102",
+              "name": "TIN present",
+              "ok": true
+            }
+          ],
+          "days_left": null,
+          "doc_type": "w9",
+          "expiry": null,
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.98,
+              "line": "Name (as shown on your income tax return): Copperleaf Plumbing Co.",
+              "name": "legal_name",
+              "page": 1,
+              "value": "Copperleaf Plumbing Co.",
+              "verified": true
+            },
+            {
+              "confidence": 0.93,
+              "line": "Signature of U.S. person: /s/ signed electronically",
+              "name": "signature",
+              "page": 1,
+              "value": "/s/ signed electronically",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Date: 02/03/2026",
+              "name": "signed_date",
+              "page": 1,
+              "value": "02/03/2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Federal tax classification: C corporation",
+              "name": "tax_classification",
+              "page": 1,
+              "value": "C corporation",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Taxpayer Identification Number (EIN): **-***0102",
+              "name": "tin_last4",
+              "page": 1,
+              "value": "0102",
+              "verified": true
+            }
+          ],
+          "file": "docs/V-102/w9.pdf",
+          "label": "W-9",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "trade_license (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Copperleaf Plumbing Co.\" vs \"Copperleaf Plumbing Co.\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "2027-03-31 (138 days)",
+              "name": "Not expired, > 30 days left",
+              "ok": true
+            }
+          ],
+          "days_left": 138,
+          "doc_type": "trade_license",
+          "expiry": "2027-03-31",
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.97,
+              "line": "Expires: 03/31/2027",
+              "name": "expiry_date",
+              "page": 1,
+              "value": "03/31/2027",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Issued: 03/31/2025",
+              "name": "issue_date",
+              "page": 1,
+              "value": "03/31/2025",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "License Number: PL-000102",
+              "name": "license_number",
+              "page": 1,
+              "value": "PL-000102",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Licensee: Copperleaf Plumbing Co.",
+              "name": "licensee_name",
+              "page": 1,
+              "value": "Copperleaf Plumbing Co.",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Issuing State: TX",
+              "name": "state",
+              "page": 1,
+              "value": "TX",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "License Type: Master Plumber",
+              "name": "trade",
+              "page": 1,
+              "value": "Master Plumber",
+              "verified": true
+            }
+          ],
+          "file": "docs/V-102/trade_license.pdf",
+          "label": "Trade licence",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        }
+      ],
+      "email": "office@copperleaf.example.com",
+      "id": "V-102",
+      "name": "Copperleaf Plumbing Co.",
+      "record": {
+        "dispatch_hold_in_buildium": false,
+        "insurance_expiration": "2026-12-01",
+        "license_expiration": "2027-03-31",
+        "license_number": "PL-000102",
+        "license_state": "TX"
+      },
+      "sources": {
+        "active": "api",
+        "dispatch_hold": "export",
+        "email": "api",
+        "insurance_expiration": "api",
+        "license_expiration": "export",
+        "license_number": "export",
+        "license_state": "export",
+        "name": "api",
+        "trade": "api"
+      },
+      "status": "expiring_soon",
+      "trade": "plumbing"
+    },
+    {
+      "dispatch_paused": true,
+      "docs": [
+        {
+          "blocks_dispatch": true,
+          "checks": [
+            {
+              "detail": "coi (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Northgate H.V.A.C. Services, Inc.\" vs \"Northgate HVAC Services, Inc.\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "$1,000,000 vs $1,000,000 required",
+              "name": "GL each occurrence >= minimum",
+              "ok": true
+            },
+            {
+              "detail": "Sample Residential Management LLC",
+              "name": "Management company is additional insured",
+              "ok": true
+            },
+            {
+              "detail": "2026-10-31 (-13 days)",
+              "name": "Not expired, > 30 days left",
+              "ok": false
+            }
+          ],
+          "days_left": -13,
+          "doc_type": "coi",
+          "expiry": "2026-10-31",
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.95,
+              "line": "Additional Insured: Sample Residential Management LLC",
+              "name": "additional_insured",
+              "page": 1,
+              "value": "Sample Residential Management LLC",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "General Aggregate: $2,000,000",
+              "name": "aggregate_limit",
+              "page": 1,
+              "value": "$2,000,000",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Effective Date: 10/31/2025",
+              "name": "effective_date",
+              "page": 1,
+              "value": "10/31/2025",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Expiration Date: 10/31/2026",
+              "name": "expiry_date",
+              "page": 1,
+              "value": "10/31/2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Insured: Northgate H.V.A.C. Services, Inc.",
+              "name": "insured_name",
+              "page": 1,
+              "value": "Northgate H.V.A.C. Services, Inc.",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Insurer A: Example Mutual Insurance Co.",
+              "name": "insurer",
+              "page": 1,
+              "value": "Example Mutual Insurance Co.",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Each Occurrence: $1,000,000",
+              "name": "per_occurrence_limit",
+              "page": 1,
+              "value": "$1,000,000",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Number: CGL-00-1003",
+              "name": "policy_number",
+              "page": 1,
+              "value": "CGL-00-1003",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Type of Insurance: Commercial General Liability - Occurrence",
+              "name": "policy_type",
+              "page": 1,
+              "value": "Commercial General Liability - Occurrence",
+              "verified": true
+            }
+          ],
+          "file": "docs/V-103/coi.pdf",
+          "label": "Certificate of Insurance",
+          "reasons": [
+            "expired 2026-10-31 (13 days ago)"
+          ],
+          "route": "text",
+          "status": "expired"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "w9 (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Northgate HVAC Services, Inc.\" vs \"Northgate HVAC Services, Inc.\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "/s/ signed electronically",
+              "name": "Signed",
+              "ok": true
+            },
+            {
+              "detail": "ending 0103",
+              "name": "TIN present",
+              "ok": true
+            }
+          ],
+          "days_left": null,
+          "doc_type": "w9",
+          "expiry": null,
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.98,
+              "line": "Name (as shown on your income tax return): Northgate HVAC Services, Inc.",
+              "name": "legal_name",
+              "page": 1,
+              "value": "Northgate HVAC Services, Inc.",
+              "verified": true
+            },
+            {
+              "confidence": 0.93,
+              "line": "Signature of U.S. person: /s/ signed electronically",
+              "name": "signature",
+              "page": 1,
+              "value": "/s/ signed electronically",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Date: 11/20/2025",
+              "name": "signed_date",
+              "page": 1,
+              "value": "11/20/2025",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Federal tax classification: C corporation",
+              "name": "tax_classification",
+              "page": 1,
+              "value": "C corporation",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Taxpayer Identification Number (EIN): **-***0103",
+              "name": "tin_last4",
+              "page": 1,
+              "value": "0103",
+              "verified": true
+            }
+          ],
+          "file": "docs/V-103/w9.pdf",
+          "label": "W-9",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "trade_license (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Northgate HVAC Services, Inc.\" vs \"Northgate HVAC Services, Inc.\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "2027-06-30 (229 days)",
+              "name": "Not expired, > 30 days left",
+              "ok": true
+            }
+          ],
+          "days_left": 229,
+          "doc_type": "trade_license",
+          "expiry": "2027-06-30",
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.97,
+              "line": "Expires: 2027-06-30",
+              "name": "expiry_date",
+              "page": 1,
+              "value": "2027-06-30",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Issued: 2025-06-30",
+              "name": "issue_date",
+              "page": 1,
+              "value": "2025-06-30",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "License Number: AC-000103",
+              "name": "license_number",
+              "page": 1,
+              "value": "AC-000103",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Licensee: Northgate HVAC Services, Inc.",
+              "name": "licensee_name",
+              "page": 1,
+              "value": "Northgate HVAC Services, Inc.",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Issuing State: TX",
+              "name": "state",
+              "page": 1,
+              "value": "TX",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "License Type: Air Conditioning and Refrigeration Contractor",
+              "name": "trade",
+              "page": 1,
+              "value": "Air Conditioning and Refrigeration Contractor",
+              "verified": true
+            }
+          ],
+          "file": "docs/V-103/trade_license.pdf",
+          "label": "Trade licence",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        }
+      ],
+      "email": "office@northgate.example.com",
+      "id": "V-103",
+      "name": "Northgate HVAC Services, Inc.",
+      "record": {
+        "dispatch_hold_in_buildium": false,
+        "insurance_expiration": "2026-10-31",
+        "license_expiration": "2027-06-30",
+        "license_number": "AC-000103",
+        "license_state": "TX"
+      },
+      "sources": {
+        "active": "api",
+        "dispatch_hold": "export",
+        "email": "api",
+        "insurance_expiration": "api",
+        "license_expiration": "export",
+        "license_number": "export",
+        "license_state": "export",
+        "name": "api",
+        "trade": "api"
+      },
+      "status": "expired",
+      "trade": "hvac"
+    },
+    {
+      "dispatch_paused": false,
+      "docs": [
+        {
+          "blocks_dispatch": true,
+          "checks": [
+            {
+              "detail": "coi (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Greenway Grounds LLC\" vs \"Greenway Grounds LLC\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "$500,000 vs $1,000,000 required",
+              "name": "GL each occurrence >= minimum",
+              "ok": false
+            },
+            {
+              "detail": "Sample Residential Management LLC",
+              "name": "Management company is additional insured",
+              "ok": true
+            },
+            {
+              "detail": "2027-04-30 (168 days)",
+              "name": "Not expired, > 30 days left",
+              "ok": true
+            }
+          ],
+          "days_left": 168,
+          "doc_type": "coi",
+          "expiry": "2027-04-30",
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.95,
+              "line": "Additional Insured: Sample Residential Management LLC",
+              "name": "additional_insured",
+              "page": 1,
+              "value": "Sample Residential Management LLC",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "General Aggregate: $1,000,000",
+              "name": "aggregate_limit",
+              "page": 1,
+              "value": "$1,000,000",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Effective Date: 05/01/2026",
+              "name": "effective_date",
+              "page": 1,
+              "value": "05/01/2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Expiration Date: 04/30/2027",
+              "name": "expiry_date",
+              "page": 1,
+              "value": "04/30/2027",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Insured: Greenway Grounds LLC",
+              "name": "insured_name",
+              "page": 1,
+              "value": "Greenway Grounds LLC",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Insurer A: Example Mutual Insurance Co.",
+              "name": "insurer",
+              "page": 1,
+              "value": "Example Mutual Insurance Co.",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Each Occurrence: $500,000",
+              "name": "per_occurrence_limit",
+              "page": 1,
+              "value": "$500,000",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Number: CGL-00-1004",
+              "name": "policy_number",
+              "page": 1,
+              "value": "CGL-00-1004",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Type of Insurance: Commercial General Liability - Occurrence",
+              "name": "policy_type",
+              "page": 1,
+              "value": "Commercial General Liability - Occurrence",
+              "verified": true
+            }
+          ],
+          "file": "docs/V-104/coi.pdf",
+          "label": "Certificate of Insurance",
+          "reasons": [
+            "GL each occurrence $500,000 is below the $1,000,000 minimum"
+          ],
+          "route": "text",
+          "status": "needs_review"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "w9 (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Greenway Grounds LLC\" vs \"Greenway Grounds LLC\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "/s/ signed electronically",
+              "name": "Signed",
+              "ok": true
+            },
+            {
+              "detail": "ending 0104",
+              "name": "TIN present",
+              "ok": true
+            }
+          ],
+          "days_left": null,
+          "doc_type": "w9",
+          "expiry": null,
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.98,
+              "line": "Name (as shown on your income tax return): Greenway Grounds LLC",
+              "name": "legal_name",
+              "page": 1,
+              "value": "Greenway Grounds LLC",
+              "verified": true
+            },
+            {
+              "confidence": 0.93,
+              "line": "Signature of U.S. person: /s/ signed electronically",
+              "name": "signature",
+              "page": 1,
+              "value": "/s/ signed electronically",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Date: 05/02/2026",
+              "name": "signed_date",
+              "page": 1,
+              "value": "05/02/2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Federal tax classification: LLC (single member)",
+              "name": "tax_classification",
+              "page": 1,
+              "value": "LLC (single member)",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Taxpayer Identification Number (EIN): **-***0104",
+              "name": "tin_last4",
+              "page": 1,
+              "value": "0104",
+              "verified": true
+            }
+          ],
+          "file": "docs/V-104/w9.pdf",
+          "label": "W-9",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        }
+      ],
+      "email": "office@greenway.example.com",
+      "id": "V-104",
+      "name": "Greenway Grounds LLC",
+      "record": {
+        "dispatch_hold_in_buildium": false,
+        "insurance_expiration": "2027-04-30",
+        "license_expiration": null,
+        "license_number": "",
+        "license_state": ""
+      },
+      "sources": {
+        "active": "api",
+        "dispatch_hold": "export",
+        "email": "api",
+        "insurance_expiration": "api",
+        "license_expiration": "export",
+        "license_number": "export",
+        "license_state": "export",
+        "name": "api",
+        "trade": "api"
+      },
+      "status": "needs_review",
+      "trade": "landscaping"
+    },
+    {
+      "dispatch_paused": false,
+      "docs": [
+        {
+          "blocks_dispatch": true,
+          "checks": [
+            {
+              "detail": "coi (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Sparkle Shine Janitorial Services Inc.\" vs \"Sparkle & Shine Cleaning LLC\" (score 0.62)",
+              "name": "Name matches record",
+              "ok": false
+            },
+            {
+              "detail": "$1,000,000 vs $1,000,000 required",
+              "name": "GL each occurrence >= minimum",
+              "ok": true
+            },
+            {
+              "detail": "Sample Residential Management LLC",
+              "name": "Management company is additional insured",
+              "ok": true
+            },
+            {
+              "detail": "2027-05-31 (199 days)",
+              "name": "Not expired, > 30 days left",
+              "ok": true
+            }
+          ],
+          "days_left": 199,
+          "doc_type": "coi",
+          "expiry": "2027-05-31",
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.95,
+              "line": "Additional Insured: Sample Residential Management LLC",
+              "name": "additional_insured",
+              "page": 1,
+              "value": "Sample Residential Management LLC",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "General Aggregate: $2,000,000",
+              "name": "aggregate_limit",
+              "page": 1,
+              "value": "$2,000,000",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Effective Date: 06/01/2026",
+              "name": "effective_date",
+              "page": 1,
+              "value": "06/01/2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Expiration Date: 05/31/2027",
+              "name": "expiry_date",
+              "page": 1,
+              "value": "05/31/2027",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Insured: Sparkle Shine Janitorial Services Inc.",
+              "name": "insured_name",
+              "page": 1,
+              "value": "Sparkle Shine Janitorial Services Inc.",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Insurer A: Example Mutual Insurance Co.",
+              "name": "insurer",
+              "page": 1,
+              "value": "Example Mutual Insurance Co.",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Each Occurrence: $1,000,000",
+              "name": "per_occurrence_limit",
+              "page": 1,
+              "value": "$1,000,000",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Number: CGL-00-1005",
+              "name": "policy_number",
+              "page": 1,
+              "value": "CGL-00-1005",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Type of Insurance: Commercial General Liability - Occurrence",
+              "name": "policy_type",
+              "page": 1,
+              "value": "Commercial General Liability - Occurrence",
+              "verified": true
+            }
+          ],
+          "file": "docs/V-105/coi.pdf",
+          "label": "Certificate of Insurance",
+          "reasons": [
+            "insured name \"Sparkle Shine Janitorial Services Inc.\" does not match \"Sparkle & Shine Cleaning LLC\" (0.62)"
+          ],
+          "route": "text",
+          "status": "needs_review"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "w9 (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Sparkle & Shine Cleaning LLC\" vs \"Sparkle & Shine Cleaning LLC\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "/s/ signed electronically",
+              "name": "Signed",
+              "ok": true
+            },
+            {
+              "detail": "ending 0105",
+              "name": "TIN present",
+              "ok": true
+            }
+          ],
+          "days_left": null,
+          "doc_type": "w9",
+          "expiry": null,
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.98,
+              "line": "Name (as shown on your income tax return): Sparkle & Shine Cleaning LLC",
+              "name": "legal_name",
+              "page": 1,
+              "value": "Sparkle & Shine Cleaning LLC",
+              "verified": true
+            },
+            {
+              "confidence": 0.93,
+              "line": "Signature of U.S. person: /s/ signed electronically",
+              "name": "signature",
+              "page": 1,
+              "value": "/s/ signed electronically",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Date: 06/04/2026",
+              "name": "signed_date",
+              "page": 1,
+              "value": "06/04/2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Federal tax classification: LLC (single member)",
+              "name": "tax_classification",
+              "page": 1,
+              "value": "LLC (single member)",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Taxpayer Identification Number (EIN): **-***0105",
+              "name": "tin_last4",
+              "page": 1,
+              "value": "0105",
+              "verified": true
+            }
+          ],
+          "file": "docs/V-105/w9.pdf",
+          "label": "W-9",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        }
+      ],
+      "email": "office@sparkle.example.com",
+      "id": "V-105",
+      "name": "Sparkle & Shine Cleaning LLC",
+      "record": {
+        "dispatch_hold_in_buildium": false,
+        "insurance_expiration": "2027-05-31",
+        "license_expiration": null,
+        "license_number": "",
+        "license_state": ""
+      },
+      "sources": {
+        "active": "api",
+        "dispatch_hold": "export",
+        "email": "api",
+        "insurance_expiration": "api",
+        "license_expiration": "export",
+        "license_number": "export",
+        "license_state": "export",
+        "name": "api",
+        "trade": "api"
+      },
+      "status": "needs_review",
+      "trade": "cleaning"
+    },
+    {
+      "dispatch_paused": false,
+      "docs": [
+        {
+          "blocks_dispatch": true,
+          "checks": [
+            {
+              "detail": "coi (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Riverbend Electrical Contractors Inc.\" vs \"Riverbend Electrical Contractors Inc.\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "$1,000,000 vs $1,000,000 required",
+              "name": "GL each occurrence >= minimum",
+              "ok": true
+            },
+            {
+              "detail": "None",
+              "name": "Management company is additional insured",
+              "ok": false
+            },
+            {
+              "detail": "2027-08-15 (275 days)",
+              "name": "Not expired, > 30 days left",
+              "ok": true
+            }
+          ],
+          "days_left": 275,
+          "doc_type": "coi",
+          "expiry": "2027-08-15",
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.95,
+              "line": "Additional Insured: None",
+              "name": "additional_insured",
+              "page": 1,
+              "value": "None",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "General Aggregate: $2,000,000",
+              "name": "aggregate_limit",
+              "page": 1,
+              "value": "$2,000,000",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Effective Date: 08/15/2026",
+              "name": "effective_date",
+              "page": 1,
+              "value": "08/15/2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Expiration Date: 08/15/2027",
+              "name": "expiry_date",
+              "page": 1,
+              "value": "08/15/2027",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Insured: Riverbend Electrical Contractors Inc.",
+              "name": "insured_name",
+              "page": 1,
+              "value": "Riverbend Electrical Contractors Inc.",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Insurer A: Example Mutual Insurance Co.",
+              "name": "insurer",
+              "page": 1,
+              "value": "Example Mutual Insurance Co.",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Each Occurrence: $1,000,000",
+              "name": "per_occurrence_limit",
+              "page": 1,
+              "value": "$1,000,000",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Number: CGL-00-1006",
+              "name": "policy_number",
+              "page": 1,
+              "value": "CGL-00-1006",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Type of Insurance: Commercial General Liability - Occurrence",
+              "name": "policy_type",
+              "page": 1,
+              "value": "Commercial General Liability - Occurrence",
+              "verified": true
+            }
+          ],
+          "file": "docs/V-106/coi.pdf",
+          "label": "Certificate of Insurance",
+          "reasons": [
+            "Sample Residential Management LLC not named as additional insured"
+          ],
+          "route": "text",
+          "status": "needs_review"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "w9 (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Riverbend Electrical Contractors Inc.\" vs \"Riverbend Electrical Contractors Inc.\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "/s/ signed electronically",
+              "name": "Signed",
+              "ok": true
+            },
+            {
+              "detail": "ending 0106",
+              "name": "TIN present",
+              "ok": true
+            }
+          ],
+          "days_left": null,
+          "doc_type": "w9",
+          "expiry": null,
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.98,
+              "line": "Name (as shown on your income tax return): Riverbend Electrical Contractors Inc.",
+              "name": "legal_name",
+              "page": 1,
+              "value": "Riverbend Electrical Contractors Inc.",
+              "verified": true
+            },
+            {
+              "confidence": 0.93,
+              "line": "Signature of U.S. person: /s/ signed electronically",
+              "name": "signature",
+              "page": 1,
+              "value": "/s/ signed electronically",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Date: 08/20/2026",
+              "name": "signed_date",
+              "page": 1,
+              "value": "08/20/2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Federal tax classification: S corporation",
+              "name": "tax_classification",
+              "page": 1,
+              "value": "S corporation",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Taxpayer Identification Number (EIN): **-***0106",
+              "name": "tin_last4",
+              "page": 1,
+              "value": "0106",
+              "verified": true
+            }
+          ],
+          "file": "docs/V-106/w9.pdf",
+          "label": "W-9",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "trade_license (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Riverbend Electrical Contractors Inc.\" vs \"Riverbend Electrical Contractors Inc.\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "2028-01-31 (444 days)",
+              "name": "Not expired, > 30 days left",
+              "ok": true
+            }
+          ],
+          "days_left": 444,
+          "doc_type": "trade_license",
+          "expiry": "2028-01-31",
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.97,
+              "line": "Expires: 01/31/2028",
+              "name": "expiry_date",
+              "page": 1,
+              "value": "01/31/2028",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Issued: 01/31/2026",
+              "name": "issue_date",
+              "page": 1,
+              "value": "01/31/2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "License Number: EC-000106",
+              "name": "license_number",
+              "page": 1,
+              "value": "EC-000106",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Licensee: Riverbend Electrical Contractors Inc.",
+              "name": "licensee_name",
+              "page": 1,
+              "value": "Riverbend Electrical Contractors Inc.",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Issuing State: TX",
+              "name": "state",
+              "page": 1,
+              "value": "TX",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "License Type: Electrical Contractor",
+              "name": "trade",
+              "page": 1,
+              "value": "Electrical Contractor",
+              "verified": true
+            }
+          ],
+          "file": "docs/V-106/trade_license.pdf",
+          "label": "Trade licence",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        }
+      ],
+      "email": "office@riverbend.example.com",
+      "id": "V-106",
+      "name": "Riverbend Electrical Contractors Inc.",
+      "record": {
+        "dispatch_hold_in_buildium": false,
+        "insurance_expiration": "2027-08-15",
+        "license_expiration": "2028-01-31",
+        "license_number": "EC-000106",
+        "license_state": "TX"
+      },
+      "sources": {
+        "active": "api",
+        "dispatch_hold": "export",
+        "email": "api",
+        "insurance_expiration": "api",
+        "license_expiration": "export",
+        "license_number": "export",
+        "license_state": "export",
+        "name": "api",
+        "trade": "api"
+      },
+      "status": "needs_review",
+      "trade": "electrical"
+    },
+    {
+      "dispatch_paused": false,
+      "docs": [
+        {
+          "blocks_dispatch": true,
+          "checks": [
+            {
+              "detail": "coi (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Bluepipe Drain & Sewer LLC\" vs \"Bluepipe Drain & Sewer LLC\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "$1,000,000 vs $1,000,000 required",
+              "name": "GL each occurrence >= minimum",
+              "ok": true
+            },
+            {
+              "detail": "Sample Residential Management LLC",
+              "name": "Management company is additional insured",
+              "ok": true
+            },
+            {
+              "detail": "2027-06-30 (229 days)",
+              "name": "Not expired, > 30 days left",
+              "ok": true
+            }
+          ],
+          "days_left": 229,
+          "doc_type": "coi",
+          "expiry": "2027-06-30",
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.95,
+              "line": "Additional Insured: Sample Residential Management LLC",
+              "name": "additional_insured",
+              "page": 1,
+              "value": "Sample Residential Management LLC",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "General Aggregate: $2,000,000",
+              "name": "aggregate_limit",
+              "page": 1,
+              "value": "$2,000,000",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Effective Date: 06/30/2026",
+              "name": "effective_date",
+              "page": 1,
+              "value": "06/30/2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Expiration Date: 06/30/2027",
+              "name": "expiry_date",
+              "page": 1,
+              "value": "06/30/2027",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Insured: Bluepipe Drain & Sewer LLC",
+              "name": "insured_name",
+              "page": 1,
+              "value": "Bluepipe Drain & Sewer LLC",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Insurer A: Example Mutual Insurance Co.",
+              "name": "insurer",
+              "page": 1,
+              "value": "Example Mutual Insurance Co.",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Each Occurrence: $1,000,000",
+              "name": "per_occurrence_limit",
+              "page": 1,
+              "value": "$1,000,000",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Number: CGL-00-1007",
+              "name": "policy_number",
+              "page": 1,
+              "value": "CGL-00-1007",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Type of Insurance: Commercial General Liability - Occurrence",
+              "name": "policy_type",
+              "page": 1,
+              "value": "Commercial General Liability - Occurrence",
+              "verified": true
+            }
+          ],
+          "file": "docs/V-107/coi.pdf",
+          "label": "Certificate of Insurance",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [],
+          "days_left": null,
+          "doc_type": "w9",
+          "expiry": null,
+          "extractor": null,
+          "fields": [],
+          "file": null,
+          "label": "W-9",
+          "reasons": [
+            "W-9 not on file"
+          ],
+          "route": null,
+          "status": "missing"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "trade_license (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Bluepipe Drain & Sewer LLC\" vs \"Bluepipe Drain & Sewer LLC\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "2027-11-30 (382 days)",
+              "name": "Not expired, > 30 days left",
+              "ok": true
+            }
+          ],
+          "days_left": 382,
+          "doc_type": "trade_license",
+          "expiry": "2027-11-30",
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.97,
+              "line": "Expires: 11/30/2027",
+              "name": "expiry_date",
+              "page": 1,
+              "value": "11/30/2027",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Issued: 11/30/2025",
+              "name": "issue_date",
+              "page": 1,
+              "value": "11/30/2025",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "License Number: PL-000107",
+              "name": "license_number",
+              "page": 1,
+              "value": "PL-000107",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Licensee: Bluepipe Drain & Sewer LLC",
+              "name": "licensee_name",
+              "page": 1,
+              "value": "Bluepipe Drain & Sewer LLC",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Issuing State: TX",
+              "name": "state",
+              "page": 1,
+              "value": "TX",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "License Type: Journeyman Plumber",
+              "name": "trade",
+              "page": 1,
+              "value": "Journeyman Plumber",
+              "verified": true
+            }
+          ],
+          "file": "docs/V-107/trade_license.pdf",
+          "label": "Trade licence",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        }
+      ],
+      "email": "office@bluepipe.example.com",
+      "id": "V-107",
+      "name": "Bluepipe Drain & Sewer LLC",
+      "record": {
+        "dispatch_hold_in_buildium": false,
+        "insurance_expiration": "2026-06-30",
+        "license_expiration": "2027-11-30",
+        "license_number": "PL-000107",
+        "license_state": "TX"
+      },
+      "sources": {
+        "active": "api",
+        "dispatch_hold": "export",
+        "email": "api",
+        "insurance_expiration": "api",
+        "license_expiration": "export",
+        "license_number": "export",
+        "license_state": "export",
+        "name": "api",
+        "trade": "api"
+      },
+      "status": "missing",
+      "trade": "plumbing"
+    },
+    {
+      "dispatch_paused": false,
+      "docs": [
+        {
+          "blocks_dispatch": true,
+          "checks": [
+            {
+              "detail": "coi (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Coolbreeze Heating & Air LLC\" vs \"Coolbreeze Heating & Air LLC\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "$1,000,000 vs $1,000,000 required",
+              "name": "GL each occurrence >= minimum",
+              "ok": true
+            },
+            {
+              "detail": "Sample Residential Management LLC",
+              "name": "Management company is additional insured",
+              "ok": true
+            },
+            {
+              "detail": "2027-09-30 (321 days)",
+              "name": "Not expired, > 30 days left",
+              "ok": true
+            }
+          ],
+          "days_left": 321,
+          "doc_type": "coi",
+          "expiry": "2027-09-30",
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.95,
+              "line": "Additional Insured: Sample Residential Management LLC",
+              "name": "additional_insured",
+              "page": 1,
+              "value": "Sample Residential Management LLC",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "General Aggregate: $2,000,000",
+              "name": "aggregate_limit",
+              "page": 1,
+              "value": "$2,000,000",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Effective Date: 09/30/2026",
+              "name": "effective_date",
+              "page": 1,
+              "value": "09/30/2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Expiration Date: 09/30/2027",
+              "name": "expiry_date",
+              "page": 1,
+              "value": "09/30/2027",
+              "verified": true
+            },
+            {
+              "confidence": 0.98,
+              "line": "Insured: Coolbreeze Heating & Air LLC",
+              "name": "insured_name",
+              "page": 1,
+              "value": "Coolbreeze Heating & Air LLC",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Insurer A: Example Mutual Insurance Co.",
+              "name": "insurer",
+              "page": 1,
+              "value": "Example Mutual Insurance Co.",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Each Occurrence: $1,000,000",
+              "name": "per_occurrence_limit",
+              "page": 1,
+              "value": "$1,000,000",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Policy Number: CGL-00-1008",
+              "name": "policy_number",
+              "page": 1,
+              "value": "CGL-00-1008",
+              "verified": true
+            },
+            {
+              "confidence": 0.96,
+              "line": "Type of Insurance: Commercial General Liability - Occurrence",
+              "name": "policy_type",
+              "page": 1,
+              "value": "Commercial General Liability - Occurrence",
+              "verified": true
+            }
+          ],
+          "file": "docs/V-108/coi.pdf",
+          "label": "Certificate of Insurance",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "w9 (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Coolbreeze Heating & Air LLC\" vs \"Coolbreeze Heating & Air LLC\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "/s/ signed electronically",
+              "name": "Signed",
+              "ok": true
+            },
+            {
+              "detail": "ending 0108",
+              "name": "TIN present",
+              "ok": true
+            }
+          ],
+          "days_left": null,
+          "doc_type": "w9",
+          "expiry": null,
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.98,
+              "line": "Name (as shown on your income tax return): Coolbreeze Heating & Air LLC",
+              "name": "legal_name",
+              "page": 1,
+              "value": "Coolbreeze Heating & Air LLC",
+              "verified": true
+            },
+            {
+              "confidence": 0.93,
+              "line": "Signature of U.S. person: /s/ signed electronically",
+              "name": "signature",
+              "page": 1,
+              "value": "/s/ signed electronically",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Date: 10/01/2026",
+              "name": "signed_date",
+              "page": 1,
+              "value": "10/01/2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Federal tax classification: LLC (partnership)",
+              "name": "tax_classification",
+              "page": 1,
+              "value": "LLC (partnership)",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Taxpayer Identification Number (EIN): **-***0108",
+              "name": "tin_last4",
+              "page": 1,
+              "value": "0108",
+              "verified": true
+            }
+          ],
+          "file": "docs/V-108/w9.pdf",
+          "label": "W-9",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [],
+          "days_left": null,
+          "doc_type": "trade_license",
+          "expiry": null,
+          "extractor": null,
+          "fields": [],
+          "file": null,
+          "label": "Trade licence",
+          "reasons": [
+            "Trade licence not on file"
+          ],
+          "route": null,
+          "status": "missing"
+        }
+      ],
+      "email": "office@coolbreeze.example.com",
+      "id": "V-108",
+      "name": "Coolbreeze Heating & Air LLC",
+      "record": {
+        "dispatch_hold_in_buildium": false,
+        "insurance_expiration": "2027-09-30",
+        "license_expiration": null,
+        "license_number": "",
+        "license_state": ""
+      },
+      "sources": {
+        "active": "api",
+        "dispatch_hold": "export",
+        "email": "api",
+        "insurance_expiration": "api",
+        "license_expiration": "export",
+        "license_number": "export",
+        "license_state": "export",
+        "name": "api",
+        "trade": "api"
+      },
+      "status": "missing",
+      "trade": "hvac"
+    },
+    {
+      "dispatch_paused": false,
+      "docs": [
+        {
+          "blocks_dispatch": true,
+          "checks": [
+            {
+              "detail": "coi (0.90)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "low: expiry_date",
+              "name": "Confidence >= 0.80",
+              "ok": false
+            },
+            {
+              "detail": "scan has no text layer; a person confirms low-confidence values",
+              "name": "Evidence found in PDF text",
+              "ok": false
+            },
+            {
+              "detail": "\"Fresh Start Cleaning Co.\" vs \"Fresh Start Cleaning Co.\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "$1,000,000 vs $1,000,000 required",
+              "name": "GL each occurrence >= minimum",
+              "ok": true
+            },
+            {
+              "detail": "Sample Residential Management LLC",
+              "name": "Management company is additional insured",
+              "ok": true
+            },
+            {
+              "detail": "2027-03-31 (138 days)",
+              "name": "Not expired, > 30 days left",
+              "ok": true
+            }
+          ],
+          "days_left": 138,
+          "doc_type": "coi",
+          "expiry": "2027-03-31",
+          "extractor": "replay:vision",
+          "fields": [
+            {
+              "confidence": 0.82,
+              "line": "ADDITIONAL INSURED: SAMPLE RESIDENTIAL MANAGEMENT LLC",
+              "name": "additional_insured",
+              "page": 1,
+              "value": "Sample Residential Management LLC",
+              "verified": null
+            },
+            {
+              "confidence": 0.85,
+              "line": "GENERAL AGGREGATE: $2,000,000",
+              "name": "aggregate_limit",
+              "page": 1,
+              "value": "$2,000,000",
+              "verified": null
+            },
+            {
+              "confidence": 0.83,
+              "line": "POLICY EFFECTIVE DATE: 04/01/2026",
+              "name": "effective_date",
+              "page": 1,
+              "value": "04/01/2026",
+              "verified": null
+            },
+            {
+              "confidence": 0.58,
+              "line": "POLICY EXPIRATION DATE: 03/31/2027",
+              "name": "expiry_date",
+              "page": 1,
+              "value": "03/31/2027",
+              "verified": null
+            },
+            {
+              "confidence": 0.91,
+              "line": "INSURED: FRESH START CLEANING CO.",
+              "name": "insured_name",
+              "page": 1,
+              "value": "Fresh Start Cleaning Co.",
+              "verified": null
+            },
+            {
+              "confidence": 0.88,
+              "line": "INSURER A: EXAMPLE MUTUAL INSURANCE CO.",
+              "name": "insurer",
+              "page": 1,
+              "value": "Example Mutual Insurance Co.",
+              "verified": null
+            },
+            {
+              "confidence": 0.87,
+              "line": "EACH OCCURRENCE: $1,000,000",
+              "name": "per_occurrence_limit",
+              "page": 1,
+              "value": "$1,000,000",
+              "verified": null
+            },
+            {
+              "confidence": 0.84,
+              "line": "POLICY NUMBER: CGL-00-1009",
+              "name": "policy_number",
+              "page": 1,
+              "value": "CGL-00-1009",
+              "verified": null
+            },
+            {
+              "confidence": 0.86,
+              "line": "TYPE OF INSURANCE: COMMERCIAL GENERAL LIABILITY - OCCURRENCE",
+              "name": "policy_type",
+              "page": 1,
+              "value": "Commercial General Liability - Occurrence",
+              "verified": null
+            }
+          ],
+          "file": "docs/V-109/scan_0042.pdf",
+          "label": "Certificate of Insurance",
+          "reasons": [
+            "low confidence 0.58 on expiry date (read from a scan)"
+          ],
+          "route": "vision",
+          "status": "needs_review"
+        },
+        {
+          "blocks_dispatch": false,
+          "checks": [
+            {
+              "detail": "w9 (0.99)",
+              "name": "Document type",
+              "ok": true
+            },
+            {
+              "detail": "all present",
+              "name": "Key fields present",
+              "ok": true
+            },
+            {
+              "detail": "all key fields",
+              "name": "Confidence >= 0.80",
+              "ok": true
+            },
+            {
+              "detail": "every quote matched",
+              "name": "Evidence found in PDF text",
+              "ok": true
+            },
+            {
+              "detail": "\"Fresh Start Cleaning Co.\" vs \"Fresh Start Cleaning Co.\" (score 1.00)",
+              "name": "Name matches record",
+              "ok": true
+            },
+            {
+              "detail": "/s/ signed electronically",
+              "name": "Signed",
+              "ok": true
+            },
+            {
+              "detail": "ending 0109",
+              "name": "TIN present",
+              "ok": true
+            }
+          ],
+          "days_left": null,
+          "doc_type": "w9",
+          "expiry": null,
+          "extractor": "replay:text",
+          "fields": [
+            {
+              "confidence": 0.98,
+              "line": "Name (as shown on your income tax return): Fresh Start Cleaning Co.",
+              "name": "legal_name",
+              "page": 1,
+              "value": "Fresh Start Cleaning Co.",
+              "verified": true
+            },
+            {
+              "confidence": 0.93,
+              "line": "Signature of U.S. person: /s/ signed electronically",
+              "name": "signature",
+              "page": 1,
+              "value": "/s/ signed electronically",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Date: 04/02/2026",
+              "name": "signed_date",
+              "page": 1,
+              "value": "04/02/2026",
+              "verified": true
+            },
+            {
+              "confidence": 0.95,
+              "line": "Federal tax classification: Individual / sole proprietor",
+              "name": "tax_classification",
+              "page": 1,
+              "value": "Individual / sole proprietor",
+              "verified": true
+            },
+            {
+              "confidence": 0.97,
+              "line": "Taxpayer Identification Number (SSN): ***-**-0109",
+              "name": "tin_last4",
+              "page": 1,
+              "value": "0109",
+              "verified": true
+            }
+          ],
+          "file": "docs/V-109/w9.pdf",
+          "label": "W-9",
+          "reasons": [],
+          "route": "text",
+          "status": "compliant"
+        }
+      ],
+      "email": "office@fresh.example.com",
+      "id": "V-109",
+      "name": "Fresh Start Cleaning Co.",
+      "record": {
+        "dispatch_hold_in_buildium": false,
+        "insurance_expiration": "2027-03-31",
+        "license_expiration": null,
+        "license_number": "",
+        "license_state": ""
+      },
+      "sources": {
+        "active": "api",
+        "dispatch_hold": "export",
+        "email": "api",
+        "insurance_expiration": "api",
+        "license_expiration": "export",
+        "license_number": "export",
+        "license_state": "export",
+        "name": "api",
+        "trade": "api"
+      },
+      "status": "needs_review",
+      "trade": "cleaning"
+    }
+  ]
+}
