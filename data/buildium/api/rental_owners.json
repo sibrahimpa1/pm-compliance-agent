@@ -1,0 +1,63 @@
+[
+  {
+    "Id": 201,
+    "IsCompany": true,
+    "CompanyName": "Harbor Lane Holdings LLC",
+    "FirstName": null,
+    "LastName": null,
+    "Email": "harbor@owners.example.com",
+    "PropertyIds": [
+      301,
+      302
+    ],
+    "ManagementAgreementStartDate": null
+  },
+  {
+    "Id": 202,
+    "IsCompany": false,
+    "CompanyName": null,
+    "FirstName": "Elena",
+    "LastName": "Marsh",
+    "Email": "elena@owners.example.com",
+    "PropertyIds": [
+      303
+    ],
+    "ManagementAgreementStartDate": null
+  },
+  {
+    "Id": 203,
+    "IsCompany": true,
+    "CompanyName": "Westbrook Family Trust",
+    "FirstName": null,
+    "LastName": null,
+    "Email": "westbrook@owners.example.com",
+    "PropertyIds": [
+      304
+    ],
+    "ManagementAgreementStartDate": null
+  },
+  {
+    "Id": 204,
+    "IsCompany": false,
+    "CompanyName": null,
+    "FirstName": "Tomas",
+    "LastName": "Vidal",
+    "Email": "tomas@owners.example.com",
+    "PropertyIds": [
+      305
+    ],
+    "ManagementAgreementStartDate": null
+  },
+  {
+    "Id": 205,
+    "IsCompany": true,
+    "CompanyName": "Maple Court Partners LP",
+    "FirstName": null,
+    "LastName": null,
+    "Email": "maple@owners.example.com",
+    "PropertyIds": [
+      306
+    ],
+    "ManagementAgreementStartDate": null
+  }
+]

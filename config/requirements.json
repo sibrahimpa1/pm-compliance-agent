@@ -1,0 +1,68 @@
+{
+  "management_company": "Sample Residential Management LLC",
+  "reminder_window_days": 30,
+  "min_confidence": 0.80,
+  "name_match": {"accept": 0.90, "review": 0.75},
+  "owner_followup_every_days": 7,
+
+  "doc_types": {
+    "coi": {
+      "label": "Certificate of Insurance",
+      "expires": true,
+      "name_field": "insured_name",
+      "blocks_dispatch": true,
+      "min_per_occurrence": 1000000,
+      "additional_insured_required": true
+    },
+    "w9": {
+      "label": "W-9",
+      "expires": false,
+      "name_field": "legal_name",
+      "tin_required": true,
+      "signature_required": true
+    },
+    "trade_license": {
+      "label": "Trade licence",
+      "expires": true,
+      "name_field": "licensee_name",
+      "blocks_dispatch": false
+    },
+    "landlord_insurance": {
+      "label": "Proof of landlord insurance",
+      "expires": true,
+      "name_field": "insured_name"
+    },
+    "management_agreement": {
+      "label": "Management agreement",
+      "expires": false,
+      "name_field": "owner_name",
+      "signature_required": true
+    },
+    "direct_deposit": {
+      "label": "Direct deposit form",
+      "expires": false,
+      "name_field": "payee_name",
+      "signature_required": true
+    },
+    "hoa_rules": {
+      "label": "HOA rules",
+      "expires": false
+    }
+  },
+
+  "vendor": {
+    "all_trades": ["coi", "w9"],
+    "by_trade": {
+      "electrical": ["trade_license"],
+      "plumbing": ["trade_license"],
+      "hvac": ["trade_license"],
+      "landscaping": [],
+      "cleaning": []
+    }
+  },
+
+  "owner": {
+    "always": ["w9", "landlord_insurance", "management_agreement", "direct_deposit"],
+    "if_property_has_hoa": ["hoa_rules"]
+  }
+}

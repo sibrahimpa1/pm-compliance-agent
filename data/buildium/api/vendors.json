@@ -1,0 +1,308 @@
+[
+  {
+    "Id": 101,
+    "IsCompany": true,
+    "CompanyName": "Brightline Electric LLC",
+    "FirstName": null,
+    "LastName": null,
+    "IsActive": true,
+    "Category": {
+      "Id": 4,
+      "Name": "Electrical"
+    },
+    "PrimaryEmail": "office@brightline.example.com",
+    "PhoneNumbers": [
+      {
+        "Number": "(000) 555-0101",
+        "Type": "Office"
+      }
+    ],
+    "Address": {
+      "AddressLine1": "303 Sample Street",
+      "City": "Anytown",
+      "State": "TX",
+      "PostalCode": "00000",
+      "Country": "UnitedStates"
+    },
+    "VendorInsurance": {
+      "Provider": "Example Mutual Insurance Co.",
+      "PolicyNumber": "CGL-00-1001",
+      "ExpirationDate": "2027-07-01"
+    }
+  },
+  {
+    "Id": 102,
+    "IsCompany": true,
+    "CompanyName": "Copperleaf Plumbing Co.",
+    "FirstName": null,
+    "LastName": null,
+    "IsActive": true,
+    "Category": {
+      "Id": 5,
+      "Name": "Plumbing"
+    },
+    "PrimaryEmail": "office@copperleaf.example.com",
+    "PhoneNumbers": [
+      {
+        "Number": "(000) 555-0102",
+        "Type": "Office"
+      }
+    ],
+    "Address": {
+      "AddressLine1": "306 Sample Street",
+      "City": "Anytown",
+      "State": "TX",
+      "PostalCode": "00000",
+      "Country": "UnitedStates"
+    },
+    "VendorInsurance": {
+      "Provider": "Example Mutual Insurance Co.",
+      "PolicyNumber": "CGL-00-1002",
+      "ExpirationDate": "2026-12-01"
+    }
+  },
+  {
+    "Id": 103,
+    "IsCompany": true,
+    "CompanyName": "Northgate HVAC Services, Inc.",
+    "FirstName": null,
+    "LastName": null,
+    "IsActive": true,
+    "Category": {
+      "Id": 6,
+      "Name": "HVAC"
+    },
+    "PrimaryEmail": "office@northgate.example.com",
+    "PhoneNumbers": [
+      {
+        "Number": "(000) 555-0103",
+        "Type": "Office"
+      }
+    ],
+    "Address": {
+      "AddressLine1": "309 Sample Street",
+      "City": "Anytown",
+      "State": "TX",
+      "PostalCode": "00000",
+      "Country": "UnitedStates"
+    },
+    "VendorInsurance": {
+      "Provider": "Example Mutual Insurance Co.",
+      "PolicyNumber": "CGL-00-1003",
+      "ExpirationDate": "2026-10-31"
+    }
+  },
+  {
+    "Id": 104,
+    "IsCompany": true,
+    "CompanyName": "Greenway Grounds LLC",
+    "FirstName": null,
+    "LastName": null,
+    "IsActive": true,
+    "Category": {
+      "Id": 7,
+      "Name": "Landscaping"
+    },
+    "PrimaryEmail": "office@greenway.example.com",
+    "PhoneNumbers": [
+      {
+        "Number": "(000) 555-0104",
+        "Type": "Office"
+      }
+    ],
+    "Address": {
+      "AddressLine1": "312 Sample Street",
+      "City": "Anytown",
+      "State": "TX",
+      "PostalCode": "00000",
+      "Country": "UnitedStates"
+    },
+    "VendorInsurance": {
+      "Provider": "Example Mutual Insurance Co.",
+      "PolicyNumber": "CGL-00-1004",
+      "ExpirationDate": "2027-04-30"
+    }
+  },
+  {
+    "Id": 105,
+    "IsCompany": true,
+    "CompanyName": "Sparkle & Shine Cleaning LLC",
+    "FirstName": null,
+    "LastName": null,
+    "IsActive": true,
+    "Category": {
+      "Id": 1,
+      "Name": "Cleaning"
+    },
+    "PrimaryEmail": "office@sparkle.example.com",
+    "PhoneNumbers": [
+      {
+        "Number": "(000) 555-0105",
+        "Type": "Office"
+      }
+    ],
+    "Address": {
+      "AddressLine1": "315 Sample Street",
+      "City": "Anytown",
+      "State": "TX",
+      "PostalCode": "00000",
+      "Country": "UnitedStates"
+    },
+    "VendorInsurance": {
+      "Provider": "Example Mutual Insurance Co.",
+      "PolicyNumber": "CGL-00-1005",
+      "ExpirationDate": "2027-05-31"
+    }
+  },
+  {
+    "Id": 106,
+    "IsCompany": true,
+    "CompanyName": "Riverbend Electrical Contractors Inc.",
+    "FirstName": null,
+    "LastName": null,
+    "IsActive": true,
+    "Category": {
+      "Id": 2,
+      "Name": "Electrical"
+    },
+    "PrimaryEmail": "office@riverbend.example.com",
+    "PhoneNumbers": [
+      {
+        "Number": "(000) 555-0106",
+        "Type": "Office"
+      }
+    ],
+    "Address": {
+      "AddressLine1": "318 Sample Street",
+      "City": "Anytown",
+      "State": "TX",
+      "PostalCode": "00000",
+      "Country": "UnitedStates"
+    },
+    "VendorInsurance": {
+      "Provider": "Example Mutual Insurance Co.",
+      "PolicyNumber": "CGL-00-1006",
+      "ExpirationDate": "2027-08-15"
+    }
+  },
+  {
+    "Id": 107,
+    "IsCompany": true,
+    "CompanyName": "Bluepipe Drain & Sewer LLC",
+    "FirstName": null,
+    "LastName": null,
+    "IsActive": true,
+    "Category": {
+      "Id": 3,
+      "Name": "Plumbing"
+    },
+    "PrimaryEmail": "office@bluepipe.example.com",
+    "PhoneNumbers": [
+      {
+        "Number": "(000) 555-0107",
+        "Type": "Office"
+      }
+    ],
+    "Address": {
+      "AddressLine1": "321 Sample Street",
+      "City": "Anytown",
+      "State": "TX",
+      "PostalCode": "00000",
+      "Country": "UnitedStates"
+    },
+    "VendorInsurance": {
+      "Provider": "Example Mutual Insurance Co.",
+      "PolicyNumber": "CGL-00-1007",
+      "ExpirationDate": "2026-06-30"
+    }
+  },
+  {
+    "Id": 108,
+    "IsCompany": true,
+    "CompanyName": "Coolbreeze Heating & Air LLC",
+    "FirstName": null,
+    "LastName": null,
+    "IsActive": true,
+    "Category": {
+      "Id": 4,
+      "Name": "Heating & Air"
+    },
+    "PrimaryEmail": "office@coolbreeze.example.com",
+    "PhoneNumbers": [
+      {
+        "Number": "(000) 555-0108",
+        "Type": "Office"
+      }
+    ],
+    "Address": {
+      "AddressLine1": "324 Sample Street",
+      "City": "Anytown",
+      "State": "TX",
+      "PostalCode": "00000",
+      "Country": "UnitedStates"
+    },
+    "VendorInsurance": {
+      "Provider": "Example Mutual Insurance Co.",
+      "PolicyNumber": "CGL-00-1008",
+      "ExpirationDate": "2027-09-30"
+    }
+  },
+  {
+    "Id": 109,
+    "IsCompany": true,
+    "CompanyName": "Fresh Start Cleaning Co.",
+    "FirstName": null,
+    "LastName": null,
+    "IsActive": true,
+    "Category": {
+      "Id": 5,
+      "Name": "Janitorial"
+    },
+    "PrimaryEmail": "office@fresh.example.com",
+    "PhoneNumbers": [
+      {
+        "Number": "(000) 555-0109",
+        "Type": "Office"
+      }
+    ],
+    "Address": {
+      "AddressLine1": "327 Sample Street",
+      "City": "Anytown",
+      "State": "TX",
+      "PostalCode": "00000",
+      "Country": "UnitedStates"
+    },
+    "VendorInsurance": {
+      "Provider": "Example Mutual Insurance Co.",
+      "PolicyNumber": "CGL-00-1009",
+      "ExpirationDate": "2027-03-31"
+    }
+  },
+  {
+    "Id": 110,
+    "IsCompany": true,
+    "CompanyName": "Old Oak Tree Service LLC",
+    "FirstName": null,
+    "LastName": null,
+    "IsActive": false,
+    "Category": {
+      "Id": 6,
+      "Name": "Landscaping"
+    },
+    "PrimaryEmail": "office@old.example.com",
+    "PhoneNumbers": [
+      {
+        "Number": "(000) 555-0110",
+        "Type": "Office"
+      }
+    ],
+    "Address": {
+      "AddressLine1": "330 Sample Street",
+      "City": "Anytown",
+      "State": "TX",
+      "PostalCode": "00000",
+      "Country": "UnitedStates"
+    },
+    "VendorInsurance": null
+  }
+]

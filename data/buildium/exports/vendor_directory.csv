@@ -1,0 +1,12 @@
+﻿Vendor ID,Vendor Name,Category,Active,Email,Phone,License #,License State,License Expiration,Insurance Expiration,Do Not Dispatch
+V-101,Brightline Electric LLC,Electrical,Yes,office@brightline.example.com,(000) 555-0101,EC-000101,TX,09/30/2026,07/01/2027,No
+V-102,Copperleaf Plumbing Co.,Plumbing,Yes,office@copperleaf.example.com,(000) 555-0102,PL-000102,TX,03/31/2027,12/01/2026,No
+V-103,"Northgate HVAC Services, Inc.",HVAC,Yes,office@northgate.example.com,(000) 555-0103,AC-000103,TX,06/30/2027,10/31/2026,No
+V-104,Greenway Grounds LLC,Landscaping,Yes,office@greenway.example.com,(000) 555-0104,,,,04/30/2027,No
+V-105,Sparkle & Shine Cleaning LLC,Cleaning,Yes,office@sparkle.example.com,(000) 555-0105,,,,05/31/2027,No
+V-106,Riverbend Electrical Contractors Inc.,Electrical,Yes,office@riverbend.example.com,(000) 555-0106,EC-000106,TX,01/31/2028,08/15/2027,No
+V-107,Bluepipe Drain & Sewer LLC,Plumbing,Yes,office@bluepipe.example.com,(000) 555-0107,PL-000107,TX,11/30/2027,06/30/2026,No
+V-108,Coolbreeze Heating & Air LLC,Heating & Air,Yes,office@coolbreeze.example.com,(000) 555-0108,,,,09/30/2027,No
+V-109,Fresh Start Cleaning Co.,Janitorial,Yes,office@fresh.example.com,(000) 555-0109,,,,03/31/2027,No
+V-110,Old Oak Tree Service LLC,Landscaping,No,office@old.example.com,(000) 555-0110,,,,,No
+

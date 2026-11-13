@@ -1,0 +1,68 @@
+[
+  {
+    "Id": 301,
+    "Name": "14 Harbor Lane",
+    "Address": {
+      "AddressLine1": "14 Harbor Lane",
+      "City": "Anytown",
+      "State": "TX",
+      "PostalCode": "00000"
+    },
+    "RentalType": "Residential"
+  },
+  {
+    "Id": 302,
+    "Name": "16 Harbor Lane",
+    "Address": {
+      "AddressLine1": "16 Harbor Lane",
+      "City": "Anytown",
+      "State": "TX",
+      "PostalCode": "00000"
+    },
+    "RentalType": "Residential"
+  },
+  {
+    "Id": 303,
+    "Name": "220 Willow Court",
+    "Address": {
+      "AddressLine1": "220 Willow Court",
+      "City": "Anytown",
+      "State": "TX",
+      "PostalCode": "00000"
+    },
+    "RentalType": "Residential"
+  },
+  {
+    "Id": 304,
+    "Name": "9 Westbrook Road",
+    "Address": {
+      "AddressLine1": "9 Westbrook Road",
+      "City": "Anytown",
+      "State": "TX",
+      "PostalCode": "00000"
+    },
+    "RentalType": "Residential"
+  },
+  {
+    "Id": 305,
+    "Name": "77 Quarry Street",
+    "Address": {
+      "AddressLine1": "77 Quarry Street",
+      "City": "Anytown",
+      "State": "TX",
+      "PostalCode": "00000"
+    },
+    "RentalType": "Residential"
+  },
+  {
+    "Id": 306,
+    "Name": "3 Maple Court",
+    "Address": {
+      "AddressLine1": "3 Maple Court",
+      "City": "Anytown",
+      "State": "TX",
+      "PostalCode": "00000"
+    },
+    "RentalType": "Residential"
+  }
+]
